@@ -1,0 +1,18 @@
+[
+    {
+        "make": "Lenovo",
+        "price": 1000
+    },
+    {
+        "make": "Dell",
+        "price": 1500
+    },
+    {
+        "make": "HP",
+        "price": 2000
+    },
+    {
+        "make": "Apple",
+        "price": 2500
+    }
+]

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+    </head>
+<body>
+<h2>Asychronous programming</h2>
+
+<script>
+
+var data = "empty";
+d3.json('./laptops.json').then( d => {
+            data = d;
+        }
+    );
+console.log(data);
+
+//Create a Promise object:
+// let myPromise = new Promise(function(callback){
+//     let data = d3.json('./laptops.json');
+//     callback(data);
+// });
+
+// function print(data){
+//     console.log(data);
+// }
+
+// myPromise.then(print);
+
+// let myPromise = new Promise(function(callback){
+//     //some codes that may take some time to complete
+//     // for example, load some data
+//     //the callback will be called after completing codes above  
+//     callback(); 
+// });
+
+// function myCallback(){
+//     console.log("Now, run the callback");
+// }
+// myPromise.then(myCallback);
+// console.log("lines after myPromise.")
+
+
+// var a = 10;
+// let myPromise = new Promise((f)=>{
+//     a = a+1;
+//     f(a);
+// });
+
+// myPromise.then(
+//     function(value){
+//         console.log("value is", value);
+//     }
+// );
+// console.log("line after myPromise, a is", a);
+</script>
+
+</body>
+</html>

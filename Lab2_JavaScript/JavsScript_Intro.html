@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Introduction to JavaScript</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+    </head>
+    <body>
+        <h1 id="head1">Hello JavaScript</h1>
+        <script>
+            d3.select('h1')
+              .on('mouseover', function() {
+                  document.getElementById("head1").style.color = 'red';
+              })
+              .on('mouseout', function(){
+                document.getElementById("head1").style.color = 'black';
+              });
+        </script>
+        <script>
+            // function power(x, n){
+            //     return x**n;
+            // }
+            // var power = function(x, n) {
+            //     return x**n;
+            // }
+
+            // var power = (x, n) => x**n;
+
+            // console.log(power(2, 3));
+
+            // let factorial = n => {
+            //     if (n <= 0) {
+            //         return 1;
+            //     } else {
+            //         return n*factorial(n-1);
+            //     }
+            // };
+            //Please rewrite the above factorial with the ternary operator.
+            // console.log(factorial(3));
+
+            // let laptops = [{make: "Lennovo", type:"Thinkpad", "screen size": 14, "price": 1000 }, 
+            //                 {make: "Dell", type:"Inspiration", "screen size": 14, "price": 1500 },
+            //              ];
+            // console.log(laptops);
+            // laptops.push({make: "Apple", type:"MPB", "screen size": 14, "price": 2000});
+            // console.log(laptops[0]["screen size"]);
+            
+            // laptops.forEach(d => console.log(d.make));
+            // prices = laptops.map(d => d.price);
+            // console.log(prices);
+
+            // laptops.map(d => d.price).filter(d => d>1000);
+
+
+        </script>
+    </body>
+</html>
