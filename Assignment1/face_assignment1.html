@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment 1</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+
+<body>
+    <h1>Making faces using svg</h1>
+    <!--Hint: you can use <g> tag to group elements as one face-->
+    <svg width='600' height="600">
+        <g id='upleft'>
+            <rect width='300' height='300'></rect>
+            <circle cx='150' cy='150' r='150' class='face'></circle>
+            <circle cx='75' cy='100' r='15' class='eye'></circle>
+            <circle cx='215' cy='100' r='15' class='eye'></circle>
+            <line x1='150' y1='105' x2='150' y2='165' class="nose"></line>
+            <path d="M 75 200 C 120 250 180 250 225 200" class='mouth'></path>
+        </g>
+
+        <g id='upright'>
+            <rect x='300' y='0' width='300' height='300'></rect>
+            <circle cx='450' cy='150' r='150' class='face'></circle>
+            <circle cx='375' cy='100' r='15' class='eye'></circle>
+            <circle cx='515' cy='100' r='15' class='eye'></circle>
+            <line x1='450' y1='105' x2='450' y2='165' class="nose"></line>
+            <path d="M 375 220 C 425 180 470 180 525 220 Z" class='open-mouth'></path>
+        </g>
+
+        <g id='lowleft'>
+            <rect x='0' y='300' width='300' height='300'></rect>
+            <circle cx='150' cy='450' r='150' class='face'></circle>
+            <circle cx='75' cy='400' r='15' class='eye'></circle>
+            <circle cx='215' cy='400' r='15' class='eye'></circle>
+            <line x1='150' y1='405' x2='150' y2='465' class="nose"></line>
+            <line x1='75' y1='525' x2='225' y2='525' class='mouth'></line>
+        </g>
+
+        <g id='lowright'>
+            <rect x='300' y='300' width='300' height='300'></rect>
+            <circle cx='450' cy='450' r='150' class='face'></circle>
+            <circle cx='375' cy='400' r='15' class='eye'></circle>
+            <circle cx='515' cy='400' r='15' class='eye'></circle>
+            <line x1='450' y1='405' x2='450' y2='465' class="nose"></line>
+            <path d="M 375 500 C 425 545 470 545 525 500 Z" class='open-mouth'></path>
+        </g>
+
+    </svg>
+
+</body>
+
+</html>

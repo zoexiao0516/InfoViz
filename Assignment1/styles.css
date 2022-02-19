@@ -1,0 +1,48 @@
+body {
+    font-family: 'Courier New';
+}
+
+g {
+    stroke: black;
+    stroke-width: 3px;
+}
+
+.face {
+    fill:yellow;
+}
+
+.eye {
+    fill: black;
+}
+
+.nose {
+    stroke-width: 20px;
+}
+
+.mouth {
+    stroke: black;
+    stroke-width: 20px;
+    fill: none;
+}
+
+.open-mouth {
+    stroke: black;
+    stroke-width: 10px;
+    fill: none;
+}
+
+#upleft {
+    fill:green;
+}
+
+#upright {
+    fill:pink;
+}
+
+#lowleft {
+    fill: orange;
+}
+
+#lowright {
+    fill: steelblue;
+}
