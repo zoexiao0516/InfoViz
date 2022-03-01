@@ -20,14 +20,14 @@ export let drawPoints = (scatterPlotLayer, data, xScale, yScale, div, scatterPlo
         .attr('transform', 'translate(' + 20 + ',' + 70 + ') rotate(' + 270 + ')')
         .append("text")
         .style("text-anchor", 'middle')
-        .text("Trip Duration Ends in")
+        .text("Trip Duration Ends in");
 
     scatterPlotLayer.append('g')
         .attr("class", 'axis-label')
         .attr('transform', 'translate(' + (scatterPlotWidth - 80) + ',' + (scatterPlotHeight / 2 - 80) + ')')
         .append("text")
         .style("text-anchor", 'middle')
-        .text("Trip Duration Starts from")
+        .text("Trip Duration Starts from");
 
     // ---------- draw points ---------- 
     scatterPlotLayer.selectAll('.point').data(data).enter()
@@ -38,10 +38,10 @@ export let drawPoints = (scatterPlotLayer, data, xScale, yScale, div, scatterPlo
         .attr('r', 5)
         .style('fill', 'steelblue')
         .style('stroke', 'black')
-        .style('stroke-width', '2')
+        .style('stroke-width', '2');
 
+    // ---------- mouseover events ---------- 
     scatterPlotLayer.selectAll(".point")
-        .attr("id", function (d, i) { return i; })
         .on("mouseover", function (event, d) {
             d3.select(this).attr("r", 10).style("fill", "red");
             div.transition()
@@ -58,5 +58,4 @@ export let drawPoints = (scatterPlotLayer, data, xScale, yScale, div, scatterPlo
                 .duration(500)
                 .style("opacity", 0);
         });
-    ;
 }
