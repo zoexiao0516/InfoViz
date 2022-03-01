@@ -29,7 +29,7 @@ d3.csv("citi_bike_2020.csv").then(function (data) {
   const width = WIDTH - margin.left;
   const height = HEIGHT - margin.top;
 
-  // ---------- set the scales ----------
+  // ---------- set the scales for scatter plot ----------
   const xScale_spl = Scales.linear(0, d3.max(data, d => d.tripdurationS), 0, width);
   const yScale_spl = Scales.linear(0, d3.max(data, d => d.tripdurationE), (height / 2 - margin.gap), 0);
 
@@ -39,14 +39,15 @@ d3.csv("citi_bike_2020.csv").then(function (data) {
 
   drawPoints(scatterPlotLayer, getDataByMonth(data, 'May'), xScale_spl, yScale_spl, div, width, height);
 
-  //Q2.2 Bar Chart
-  const xScale_bar = Scales.band([], 0, 0);
-  const yScale_bar = Scales.linear(0, 0, 0, 0);
+  // Q2.2 Bar Chart
+  // ---------- set the scales for bar chart ----------
+  const xScale_bar = Scales.band(data.map(md => `${md.station}`), 0, width);
+  const yScale_bar = Scales.linear(0, d3.max(data, d => d.start), (height / 2 - margin.gap), 0);
 
   let barChartLayer = svg.append("g")
-    .attr("transform", "translate(" + margin.left + "," + (height / 2 + margin.top + margin.gap) + ")");
+    .attr("transform", "translate(" + 70 + "," + (height / 2 + margin.top + margin.gap) + ")");
 
-  drawBars(barChartLayer, getDataByMonth(data, "May"), xScale_bar, yScale_bar, width, height / 2, div);
+  drawBars(barChartLayer, getDataByMonth(data, "May"), xScale_bar, yScale_bar, width, height, div);
 
   //Q2.4 Slider
   let month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];

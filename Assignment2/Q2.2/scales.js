@@ -8,5 +8,8 @@ export const Scales = {
     },
     band: (stations, start_pos, end_pos) => {
         console.log('the x scale for the bar chart');
+        return d3.scaleBand()
+            .domain(stations)
+            .range([start_pos, end_pos]);
     }
 }
