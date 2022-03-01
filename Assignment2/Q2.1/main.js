@@ -34,7 +34,7 @@ d3.csv("citi_bike_2020.csv").then(function (data) {
   const yScale_spl = Scales.linear(0, d3.max(data, d => d.tripdurationE), (height / 2 - margin.gap), 0);
 
   const scatterPlotLayer = svg.append("g")
-    .attr("transform", "translate(" + 50 + "," + 50 + ")");
+    .attr("transform", "translate(" + 70 + "," + 70 + ")");
 
 
   drawPoints(scatterPlotLayer, getDataByMonth(data, 'May'), xScale_spl, yScale_spl, div, width, height);

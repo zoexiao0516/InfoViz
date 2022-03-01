@@ -35,11 +35,15 @@ export let drawPoints = (scatterPlotLayer, data, xScale, yScale, div, scatterPlo
         .attr('class', "point")
         .attr("cx", d => xScale(d.tripdurationS))
         .attr('cy', d => yScale(d.tripdurationE))
-        .attr('r', '5')
+        .attr('r', 5)
         .style('fill', 'steelblue')
         .style('stroke', 'black')
         .style('stroke-width', '2')
+
+    scatterPlotLayer.selectAll(".point")
+        .attr("id", function (d, i) { return i; })
         .on("mouseover", function (event, d) {
+            d3.select(this).attr("r", 10).style("fill", "red");
             div.transition()
                 .duration(200)
                 .style("opacity", .9);
@@ -49,6 +53,7 @@ export let drawPoints = (scatterPlotLayer, data, xScale, yScale, div, scatterPlo
                 .style("height", 2 * d.station.length + "px");
         })
         .on("mouseout", function (d) {
+            d3.select(this).attr("r", 5).style("fill", "steelblue");
             div.transition()
                 .duration(500)
                 .style("opacity", 0);
