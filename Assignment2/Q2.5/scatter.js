@@ -1,6 +1,12 @@
 export let drawPoints = (scatterPlotLayer, data, xScale, yScale, div, scatterPlotWidth, scatterPlotHeight) => {
     console.log('This function plots the points in the scatter plot');
 
+    d3.selection.prototype.MoveToFront = function () {
+        return this.each(function () {
+            this.parentNode.appendChild(this);
+        });
+    };
+
     // ---------- draw x & y axis for the scatter plot ----------
     let xAxis = d3.axisBottom(xScale);
     let yAxis = d3.axisLeft(yScale).ticks(5);
@@ -44,6 +50,7 @@ export let drawPoints = (scatterPlotLayer, data, xScale, yScale, div, scatterPlo
     // ---------- mouseover events ---------- 
     scatterPlotLayer.selectAll('.point')
         .on("mouseover", function (event, d) {
+            d3.select(this).MoveToFront();
             d3.select('#' + d.id + "point").transition().attr("r", 10).style("fill", "red");
             d3.select('#' + d.id + "bar").transition().style("fill", "red");
             div.transition()

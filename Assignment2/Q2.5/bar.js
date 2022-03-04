@@ -49,6 +49,7 @@ export let drawBars = (barChatLayer, data, xScale, yScale, barChartWidth, barCha
     barChatLayer.selectAll(".bar")
         .on("mouseover", function (event, d) {
             d3.select('#' + d.id + "bar").transition().style("fill", "red");
+            d3.selectAll('#' + d.id + 'point').MoveToFront();
             d3.select('#' + d.id + "point").transition().attr("r", 10).style("fill", "red");
         })
         .on("mouseout", function (event, d) {
