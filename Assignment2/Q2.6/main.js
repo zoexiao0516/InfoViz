@@ -41,14 +41,19 @@ d3.csv("citi_bike_2020.csv").then(function (data) {
   drawPoints(scatterPlotLayer, getDataByMonth(data, 'May'), xScale_spl, yScale_spl, div, width, height);
 
   // Q2.2 Bar Chart
+  // ---------- sort the data for x scale and bars (May) ----------
+  let sortedMayData = getDataByMonth(data, "May").sort(function (a, b) {
+    return d3.descending(a.start, b.start)
+  })
+
   // ---------- set the scales for bar chart ----------
-  const xScale_bar = Scales.band(data.map(md => `${md.station}`), 0, width);
+  const xScale_bar = Scales.band(sortedMayData.map(d => `${d.station}`), 0, width);
   const yScale_bar = Scales.linear(0, d3.max(data, d => d.start), (height / 2 - margin.gap), 0);
 
   let barChartLayer = svg.append("g")
     .attr("transform", "translate(" + 70 + "," + (height / 2 + margin.top + margin.gap) + ")");
 
-  drawBars(barChartLayer, getDataByMonth(data, "May"), xScale_bar, yScale_bar, width, height, div);
+  drawBars(barChartLayer, sortedMayData, xScale_bar, yScale_bar, width, height, div);
 
   //Q2.4 Slider
   let month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -62,8 +67,15 @@ d3.csv("citi_bike_2020.csv").then(function (data) {
     d3.selectAll('.x-axis').remove();
     d3.selectAll('.y-axis').remove();
     d3.selectAll('.axis-label').remove();
+
+    // ---------- sort the data for x scale and bars ----------
+    let sortedMonthlyData = getDataByMonth(data, month[this.value - 1]).sort(function (a, b) {
+      return d3.descending(a.start, b.start)
+    })
+
+    const xScale_bar = Scales.band(sortedMonthlyData.map(d => `${d.station}`), 0, width);
     drawPoints(scatterPlotLayer, getDataByMonth(data, month[this.value - 1]), xScale_spl, yScale_spl, div, width, height);
-    drawBars(barChartLayer, getDataByMonth(data, month[this.value - 1]), xScale_bar, yScale_bar, width, height, div);
+    drawBars(barChartLayer, sortedMonthlyData, xScale_bar, yScale_bar, width, height, div);
   });
 
 
