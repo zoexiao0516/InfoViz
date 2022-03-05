@@ -1,4 +1,4 @@
-export let drawBars = (barChatLayer, data, xScale, yScale, barChartWidth, barChartHeight, div) => {
+export let drawBars = (barChatLayer, data, xScale, yScale, barChartWidth, barChartHeight, div, rect_bg) => {
     console.log("This function draws bars in the bar chart.");
 
     // ---------- draw x & y axis for the bar chart ----------
@@ -48,11 +48,13 @@ export let drawBars = (barChatLayer, data, xScale, yScale, barChartWidth, barCha
     // ---------- mouseover events ----------
     barChatLayer.selectAll(".bar")
         .on("mouseover", function (event, d) {
+            rect_bg.style('opacity', 0.5).MoveToFront();
             d3.select('#' + d.id + "bar").transition().style("fill", "red");
             d3.selectAll('#' + d.id + 'point').MoveToFront();
             d3.select('#' + d.id + "point").transition().attr("r", 10).style("fill", "red");
         })
         .on("mouseout", function (event, d) {
+            rect_bg.style('opacity', 0).MoveToBack();
             d3.select('#' + d.id + "bar").transition().style("fill", "steelblue");
             d3.select('#' + d.id + "point").transition().attr('r', '5').style("fill", "steelblue");
         });

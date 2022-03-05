@@ -1,9 +1,18 @@
-export let drawPoints = (scatterPlotLayer, data, xScale, yScale, div, scatterPlotWidth, scatterPlotHeight) => {
+export let drawPoints = (scatterPlotLayer, data, xScale, yScale, div, scatterPlotWidth, scatterPlotHeight, rect_bg) => {
     console.log('This function plots the points in the scatter plot');
 
     d3.selection.prototype.MoveToFront = function () {
         return this.each(function () {
             this.parentNode.appendChild(this);
+        });
+    };
+
+    d3.selection.prototype.MoveToBack = function () {
+        return this.each(function () {
+            var firstChild = this.parentNode.firstChild;
+            if (firstChild) {
+                this.parentNode.insertBefore(this, firstChild);
+            }
         });
     };
 
@@ -50,6 +59,7 @@ export let drawPoints = (scatterPlotLayer, data, xScale, yScale, div, scatterPlo
     // ---------- mouseover events ---------- 
     scatterPlotLayer.selectAll('.point')
         .on("mouseover", function (event, d) {
+            rect_bg.style('opacity', 0.5).MoveToFront();
             d3.select(this).MoveToFront();
             d3.select('#' + d.id + "point").transition().attr("r", 10).style("fill", "red");
             d3.select('#' + d.id + "bar").transition().style("fill", "red");
@@ -62,6 +72,7 @@ export let drawPoints = (scatterPlotLayer, data, xScale, yScale, div, scatterPlo
                 .style("height", 2 * d.station.length + "px");
         })
         .on("mouseout", function (event, d) {
+            rect_bg.style('opacity', 0).MoveToBack();
             d3.select('#' + d.id + "point").transition().attr('r', '5').style("fill", "steelblue");
             d3.select('#' + d.id + "bar").transition().style("fill", "steelblue");
             div.transition()
