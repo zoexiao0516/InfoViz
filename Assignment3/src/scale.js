@@ -1,4 +1,4 @@
-import { scaleLinear, scaleBand} from 'd3';
+import { scaleLinear, scaleBand } from 'd3';
 
 export const Scales = {
     linear: (min_value, max_value, start_pos, end_pos) => {
@@ -7,12 +7,12 @@ export const Scales = {
             .range([start_pos, end_pos])
             .domain([min_value, max_value])
             .nice();
-        },
+    },
     band: (stations, start_pos, end_pos) => {
         // console.log('the x scale for the bar chart');
         // console.log(stations);
         return scaleBand()
-        .range([start_pos, end_pos])
-        .domain(stations);
+            .range([start_pos, end_pos])
+            .domain(stations);
     }
 }

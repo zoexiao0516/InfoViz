@@ -8,9 +8,9 @@ import { Tooltip } from "./tooltip";
 //url
 const csvUrl = 'https://gist.githubusercontent.com/hogwild/3b9aa737bde61dcb4dfa60cde8046e04/raw/citibike2020.csv'
 //function for loading the data
-function useData(csvPath){
+function useData(csvPath) {
     const [dataAll, setData] = React.useState(null);
-    React.useEffect(()=>{
+    React.useEffect(() => {
         csv(csvPath).then(data => {
             data.forEach(d => {
                 d.start = +d.start;
@@ -24,39 +24,39 @@ function useData(csvPath){
     return dataAll;
 };
 // the Chart component
-function Charts () {
+function Charts() {
     const [month, setMonth] = React.useState('4');
     const SVG_WIDTH = 600;
     const SVG_HEIGHT = 800;
-    const margin = {left: 50, right:50, top:50, bottom:150, gap: 70}; //you can modify the values if needed.
+    const margin = { left: 50, right: 50, top: 50, bottom: 150, gap: 70 }; //you can modify the values if needed.
     const width = SVG_WIDTH - margin.left - margin.right;
-    const height = SVG_HEIGHT - margin.top - margin.bottom; 
+    const height = SVG_HEIGHT - margin.top - margin.bottom;
     //the handler of the slider bar
     const changeHandler = (event) => {
         setMonth(event.target.value);
     }
     //loading the whole data set
     const dataAll = useData(csvUrl);
-                if (!dataAll) {
-                   return <pre>Loading...</pre>;
-                };
-    
+    if (!dataAll) {
+        return <pre>Loading...</pre>;
+    };
+
     const MONTH = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     //get the monthly data
-    const data = dataAll.filter( d => { 
-        return d.month === MONTH[month] 
+    const data = dataAll.filter(d => {
+        return d.month === MONTH[month]
     });
-   
+
     return <div>
         <div>
-            <input key="slider" type='range' min='0' max='11' value={month} step='1' onChange={changeHandler}/>
-            <input key="monthText" type="text" value={MONTH[month]} readOnly/>
+            <input key="slider" type='range' min='0' max='11' value={month} step='1' onChange={changeHandler} />
+            <input key="monthText" type="text" value={MONTH[month]} readOnly />
         </div>
         <svg width={SVG_WIDTH} height={SVG_HEIGHT}>
-            <ScatterPlot />
+            <ScatterPlot dataAll={dataAll} data={data} offsetX={margin.left} offsetY={margin.right} width={width} height={height} />
             <BarChart />
         </svg>
-    </div> 
+    </div>
 }
 
 const rootElement = document.getElementById('root')
