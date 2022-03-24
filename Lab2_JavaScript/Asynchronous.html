@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script src="https://d3js.org/d3.v7.min.js"></script>
-    </head>
+
+<head>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
 <body>
-<h2>Asychronous programming</h2>
+    <h2>Asychronous programming</h2>
 
-<script>
+    <script>
 
-var data = "empty";
-d3.json('./laptops.json').then( d => {
-            data = d;
+        // var data = "empty";
+        // d3.json('./laptops.json').then( d => {
+        //             data = d;
+        //         }
+        //     );
+        // console.log(data);
+        for (let i = 0; i < 5; i++) {
+            setTimeout(function () {
+                console.log(i);
+            }, 1000);
         }
-    );
-console.log(data);
+        console.log(i);
 
 //Create a Promise object:
 // let myPromise = new Promise(function(callback){
@@ -53,7 +61,8 @@ console.log(data);
 //     }
 // );
 // console.log("line after myPromise, a is", a);
-</script>
+    </script>
 
 </body>
+
 </html>
