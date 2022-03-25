@@ -2,6 +2,7 @@ import React from "react";
 
 export function XAxis(props) {
     const { chartType, xScale, height, width, axisLable } = props;
+
     if (chartType === "scatter") {
         return <g>
             {<line x1={0} y1={height} x2={width} y2={height} stroke='black' />}
@@ -20,15 +21,14 @@ export function XAxis(props) {
     }
     if (chartType === "bar") {
         return <g>
-            {<line x1={0} y1={height} x2={width} y2={height} stroke='black' />}
-            {xScale.domain().map(tickValue =>
-                <g key={tickValue + 'B'} transform={`translate(${xScale(tickValue)}, 0)`}>
-                    <line y2={height} />
-                    <text style={{ textAnchor: 'start', fontSize: '10px' }} y={height + 3} transform={`rotate(75, 0, ${height + 3})`}>
-                        {tickValue}
+            <line x1={0} y1={height * 2 + 70} x2={500} y2={height * 2 + 70} stroke={`black`} />
+            {xScale.domain().map(domainValue => {
+                return <g key={domainValue} transform={`translate(${xScale(domainValue)}, ${height * 2 + 75})`}>
+                    <text style={{ textAnchor: '', fontSize: '10px' }} y={15} transform={`rotate(75,10,10)`}>
+                        {domainValue}
                     </text>
                 </g>
-            )}
+            })}
         </g>
     }
 }

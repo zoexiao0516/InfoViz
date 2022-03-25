@@ -13,7 +13,7 @@ export function ScatterPlot(props) {
 
     return <g transform={`translate(${offsetX}, ${offsetY})`}>
         <XAxis chartType={"scatter"} xScale={xScale} height={height / 2} width={width} axisLable={"Trip duration start from"} />
-        <YAxis yScale={yScale} height={height / 2} axisLable={"Trip duration end in"} />
+        <YAxis chartType={"scatter"} yScale={yScale} height={height / 2} axisLable={"Trip duration end in"} />
         <Points data={data} xScale={xScale} yScale={yScale} />
     </g>
 

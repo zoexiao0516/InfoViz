@@ -54,7 +54,7 @@ function Charts() {
         </div>
         <svg width={SVG_WIDTH} height={SVG_HEIGHT}>
             <ScatterPlot dataAll={dataAll} data={data} offsetX={margin.left} offsetY={margin.right} width={width} height={height} />
-            <BarChart />
+            <BarChart dataAll={dataAll} data={data} offsetX={margin.left} offsetY={margin.right} width={width} height={height} />
         </svg>
     </div>
 }
