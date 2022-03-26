@@ -1,23 +1,54 @@
 import React from "react";
 
 export function Points(props) {
-    const { data, xScale, yScale } = props;
+    const { data, xScale, yScale, height, width } = props;
+    const [selectedStation, SetSelectedStation] = React.useState(null);
+
+    const mouseOver = (d) => {
+        SetSelectedStation(d);
+    };
+    const mouseOut = () => {
+        SetSelectedStation(null);
+    };
 
     // complete the getColor and getRadius when you are asked to
 
-    const getColor = () => {
-        return
-    }
-    const getRadius = () => {
-        return
-    }
-
-    return <g>
-        {data.map(d => {
-            return <circle key={d.station} cx={xScale(d.tripdurationS)} cy={yScale(d.tripdurationE)} r={5}
-                fill={'steelblue'} stroke={'black'} />
+    const getColor = (selectedStation, station) => {
+        if (selectedStation == station) {
+            return "red";
+        } else {
+            return "steelblue";
         }
-        )}
-    </g>
+    }
+    const getRadius = (selectedStation, station) => {
+        if (selectedStation == station) {
+            return 10;
+        } else {
+            return 5;
+        }
+    }
 
+    if (selectedStation == null) {
+        return <g>
+            {data.map(d => {
+                return <circle key={d.station} cx={xScale(d.tripdurationS)} cy={yScale(d.tripdurationE)}
+                    r={5} fill={'steelblue'} stroke={'black'}
+                    onMouseOver={() => mouseOver(d)} onMouseOut={mouseOut} />
+            })}
+        </g>
+    } else {
+        return <g>
+            {data.map(d => {
+                return <circle key={d.station} cx={xScale(d.tripdurationS)} cy={yScale(d.tripdurationE)}
+                    r={5} fill={"steelblue"} stroke={"black"}
+                    onMouseOver={() => mouseOver(d)} onMouseOut={mouseOut} />
+            })}
+            <rect x={0} y={0} width={width} height={height} fill={"LemonChiffon"} opacity={0.6} />
+            {data.filter(d => d.station == selectedStation.station).map(d => {
+                return <circle key={d.station} cx={xScale(d.tripdurationS)} cy={yScale(d.tripdurationE)}
+                    r={getRadius(selectedStation, d)} fill={getColor(selectedStation, d)} stroke={"black"}
+                    onMouseOver={() => { mouseOver(d) }} onMouseOut={mouseOut} />
+            })}
+        </g>
+    }
 }
