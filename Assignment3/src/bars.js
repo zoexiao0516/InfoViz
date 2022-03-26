@@ -1,15 +1,7 @@
 import React from "react";
 
 export function Bars(props) {
-    const { data, xScale, yScale, height } = props;
-    const [selectedStation, SetSelectedStation] = React.useState(null);
-
-    const mouseEnter = (d) => {
-        SetSelectedStation(d);
-    };
-    const mouseOut = () => {
-        SetSelectedStation(null);
-    };
+    const { selectedStation, mouseEnter, mouseOut, data, xScale, yScale, height } = props;
 
     // complete the getColor when you are asked to
     const getColor = (selectedStation, station) => {

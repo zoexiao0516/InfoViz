@@ -1,18 +1,9 @@
 import React from "react";
 
 export function Points(props) {
-    const { data, xScale, yScale, height, width } = props;
-    const [selectedStation, SetSelectedStation] = React.useState(null);
-
-    const mouseEnter = (d) => {
-        SetSelectedStation(d);
-    };
-    const mouseOut = () => {
-        SetSelectedStation(null);
-    };
+    const { selectedStation, mouseEnter, mouseOut, data, xScale, yScale, height, width } = props;
 
     // complete the getColor and getRadius when you are asked to
-
     const getColor = (selectedStation, station) => {
         if (selectedStation == station) {
             return "red";

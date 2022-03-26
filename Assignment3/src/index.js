@@ -26,6 +26,7 @@ function useData(csvPath) {
 // the Chart component
 function Charts() {
     const [month, setMonth] = React.useState('4');
+    const [selectedStation, SetSelectedStation] = React.useState(null);
     const SVG_WIDTH = 600;
     const SVG_HEIGHT = 800;
     const margin = { left: 50, right: 50, top: 50, bottom: 150, gap: 70 }; //you can modify the values if needed.
@@ -47,14 +48,22 @@ function Charts() {
         return d.month === MONTH[month]
     });
 
+    const mouseEnter = (d) => {
+        SetSelectedStation(d);
+    };
+    const mouseOut = () => {
+        SetSelectedStation(null);
+    };
+
+
     return <div>
         <div>
             <input key="slider" type='range' min='0' max='11' value={month} step='1' onChange={changeHandler} />
             <input key="monthText" type="text" value={MONTH[month]} readOnly />
         </div>
         <svg width={SVG_WIDTH} height={SVG_HEIGHT}>
-            <ScatterPlot dataAll={dataAll} data={data} offsetX={margin.left} offsetY={margin.right} width={width} height={height} />
-            <BarChart dataAll={dataAll} data={data} offsetX={margin.left} offsetY={margin.right} width={width} height={height} />
+            <ScatterPlot selectedStation={selectedStation} mouseEnter={mouseEnter} mouseOut={mouseOut} dataAll={dataAll} data={data} offsetX={margin.left} offsetY={margin.right} width={width} height={height} />
+            <BarChart selectedStation={selectedStation} mouseEnter={mouseEnter} mouseOut={mouseOut} dataAll={dataAll} data={data} offsetX={margin.left} offsetY={margin.right} width={width} height={height} />
         </svg>
     </div>
 }
