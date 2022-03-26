@@ -38,8 +38,9 @@ export function Points(props) {
             {data.filter(d => d.station == selectedStation.station).map(d => {
                 return <circle key={d.station} cx={xScale(d.tripdurationS)} cy={yScale(d.tripdurationE)}
                     r={getRadius(selectedStation, d)} fill={getColor(selectedStation, d)} stroke={"black"}
-                    onMouseEnter={() => { mouseEnter(d) }} onMouseOut={mouseOut} />
+                    onMouseEnter={() => mouseEnter(d)} onMouseOut={mouseOut} />
             })}
         </g>
+
     }
 }

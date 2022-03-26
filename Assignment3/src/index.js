@@ -27,6 +27,8 @@ function useData(csvPath) {
 function Charts() {
     const [month, setMonth] = React.useState('4');
     const [selectedStation, SetSelectedStation] = React.useState(null);
+    const [left, setLeft] = React.useState(null);
+    const [top, setTop] = React.useState(null);
     const SVG_WIDTH = 600;
     const SVG_HEIGHT = 800;
     const margin = { left: 50, right: 50, top: 50, bottom: 150, gap: 70 }; //you can modify the values if needed.
@@ -50,9 +52,13 @@ function Charts() {
 
     const mouseEnter = (d) => {
         SetSelectedStation(d);
+        setLeft(event.pageX);
+        setTop(event.pageY);
     };
     const mouseOut = () => {
         SetSelectedStation(null);
+        setLeft(null);
+        setTop(null);
     };
 
 
@@ -65,6 +71,7 @@ function Charts() {
             <ScatterPlot selectedStation={selectedStation} mouseEnter={mouseEnter} mouseOut={mouseOut} dataAll={dataAll} data={data} offsetX={margin.left} offsetY={margin.right} width={width} height={height} />
             <BarChart selectedStation={selectedStation} mouseEnter={mouseEnter} mouseOut={mouseOut} dataAll={dataAll} data={data} offsetX={margin.left} offsetY={margin.right} width={width} height={height} />
         </svg>
+        <Tooltip d={selectedStation} left={left} top={top} />
     </div>
 }
 
