@@ -18,7 +18,7 @@ export function Bars(props) {
                 return <rect key={d.latitude} x={xScale(d.station)} y={yScale(d.start) + 70}
                     width={xScale.bandwidth()} height={height - yScale(d.start)}
                     fill={"steelblue"} stroke={"black"}
-                    onMouseEnter={() => mouseEnter(d)} onMouseOut={mouseOut} />
+                    onMouseEnter={(event) => mouseEnter("bar", event, d)} onMouseOut={mouseOut} />
             })}
         </g>
     } else {
@@ -28,7 +28,7 @@ export function Bars(props) {
                     < rect key={d.station} x={xScale(d.station)} y={yScale(d.start) + 70}
                         width={xScale.bandwidth()} height={height - yScale(d.start)}
                         fill="steelblue" stroke={"black"}
-                        onMouseEnter={() => mouseEnter(d)} onMouseOut={mouseOut} />
+                        onMouseEnter={(event) => mouseEnter("bar", event, d)} onMouseOut={mouseOut} />
                 )
             })}
             {data.filter(d => d.station == selectedStation.station).map(d => {
@@ -36,7 +36,7 @@ export function Bars(props) {
                     <rect key={d.station} x={xScale(d.station)} y={yScale(d.start) + 70}
                         width={xScale.bandwidth()} height={height - yScale(d.start)}
                         fill={getColor(selectedStation, d)} stroke={"black"}
-                        onMouseEnter={() => mouseEnter(d)} onMouseOut={mouseOut} />
+                        onMouseEnter={(event) => mouseEnter("bar", event, d)} onMouseOut={mouseOut} />
                 )
             })}
 

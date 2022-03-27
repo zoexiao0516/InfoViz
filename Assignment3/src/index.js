@@ -50,10 +50,12 @@ function Charts() {
         return d.month === MONTH[month]
     });
 
-    const mouseEnter = (d) => {
+    const mouseEnter = (chartType, event, d) => {
         SetSelectedStation(d);
-        setLeft(event.pageX);
-        setTop(event.pageY);
+        if (chartType === "scatter") {
+            setLeft(event.pageX);
+            setTop(event.pageY);
+        }
     };
     const mouseOut = () => {
         SetSelectedStation(null);

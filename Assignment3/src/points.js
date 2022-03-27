@@ -24,7 +24,7 @@ export function Points(props) {
             {data.map(d => {
                 return <circle key={d.station} cx={xScale(d.tripdurationS)} cy={yScale(d.tripdurationE)}
                     r={5} fill={'steelblue'} stroke={'black'}
-                    onMouseEnter={() => mouseEnter(d)} onMouseOut={mouseOut} />
+                    onMouseEnter={(event) => mouseEnter("scatter", event, d)} onMouseOut={mouseOut} />
             })}
         </g>
     } else {
@@ -32,13 +32,13 @@ export function Points(props) {
             {data.map(d => {
                 return <circle key={d.station} cx={xScale(d.tripdurationS)} cy={yScale(d.tripdurationE)}
                     r={5} fill={"steelblue"} stroke={"black"}
-                    onMouseEnter={() => mouseEnter(d)} onMouseOut={mouseOut} />
+                    onMouseEnter={(event) => mouseEnter("scatter", event, d)} onMouseOut={mouseOut} />
             })}
             <rect x={0} y={0} width={width} height={height} fill={"LemonChiffon"} opacity={0.6} />
             {data.filter(d => d.station == selectedStation.station).map(d => {
                 return <circle key={d.station} cx={xScale(d.tripdurationS)} cy={yScale(d.tripdurationE)}
                     r={getRadius(selectedStation, d)} fill={getColor(selectedStation, d)} stroke={"black"}
-                    onMouseEnter={() => mouseEnter(d)} onMouseOut={mouseOut} />
+                    onMouseEnter={(event) => mouseEnter("scatter", event, d)} onMouseOut={mouseOut} />
             })}
         </g>
 
