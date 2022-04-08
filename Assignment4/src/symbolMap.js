@@ -11,7 +11,7 @@ export function SymbolMap(props) {
     const mouseOver = d => { setSelectedStation(d.station) };
     const mouseOut = () => { setSelectedStation(null) };
     const getColor = (selectedStation, station) => {
-        return selectedStation && station === selectedStation ? "steelblue" : "red";
+        return station === selectedStation ? "steelblue" : "red";
     }
 
     return <g transform={`translate(${offsetX}, ${offsetY})`}>
@@ -22,7 +22,7 @@ export function SymbolMap(props) {
             let [x, y] = projection([d.longitude, d.latitude])
             return <circle key={"station" + d.longitude + d.latitude}
                 cx={x} cy={y} r={r(d.popularity)} opacity={0.7} stroke={"black"}
-                fill={getColor(selectedStation, d)}
+                fill={getColor(selectedStation, d.station)}
                 onMouseOver={() => mouseOver(d)}
                 onMouseOut={mouseOut} />
 
