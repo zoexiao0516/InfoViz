@@ -1,0 +1,396 @@
+,incident_id,state,n_killed,n_injured,source_url,latitude,longitude
+3,478925,Colorado,4,0,http://www.dailydemocrat.com/20130106/aurora-shootout-killer-was-frenetic-talented-neighbor-says,39.6518,-104.802
+5,478948,Oklahoma,4,0,http://usnews.nbcnews.com/_news/2013/01/07/16397584-police-four-women-found-dead-in-tulsa-okla-apartment?lite,36.2405,-95.9768
+6,479363,New Mexico,5,0,http://hinterlandgazette.com/2013/01/pastor-greg-griego-identified-victims-killed-nehemiah-griego-albuquerque-nm-shooting.html,34.9791,-106.716
+21,480344,Utah,4,1,,40.6008,-111.903
+22,480358,California,4,3,http://www.dailymail.co.uk/news/article-2281171/California-shooting-suspect-Ali-Syed-gunned-woman-bloody-25-minute-murder-spree.html,33.8031,-117.943
+36,482856,New York,6,2,http://www.syracuse.com/news/index.ssf/2013/03/herkimer_county_fatal_shooting.html,43.011,-75.0058
+53,484317,Ohio,4,0,http://www.huffingtonpost.com/2013/04/19/ohio-basement-murders-cop_n_3114243.html,41.1102,-81.4771
+54,484333,Washington,5,0,http://blogs.seattletimes.com/today/2013/04/5-dead-in-federal-way-shooting/,47.303,-122.31
+57,485811,Illinois,6,1,http://fox2now.com/2013/04/25/family-needs-help-to-bury-manchester-il-shooting-victims/,39.5417,-90.3301
+69,486142,Indiana,5,0,http://article.wn.com/view/2015/02/25/Samuel_Sallee_found_guilty_in_Waynesville_quadruple_murder/,39.1149,-85.8929
+95,489581,California,6,1,http://www.huffingtonpost.com/2013/06/07/santa-monica-college-shooting_n_3404689.html,34.026,-118.461
+122,490245,Texas,4,0,http://crimeblog.dallasnews.com/2013/07/man-arrested-in-connection-with-three-shooting-deaths-in-fort-worth.html/,32.7157,-97.2597
+150,491253,West Virginia,4,0,http://www.wboy.com/story/22937993/3-dead-and-one-transported-to-the-hosptal,39.2832,-80.3488
+151,491265,Florida,7,0,https://en.wikipedia.org/wiki/2013_Hialeah_shooting,25.864,-80.3122
+163,491698,Texas,4,4,http://crimeblog.dallasnews.com/2013/08/desoto-police-10-year-old-son-of-slain-shooting-victim-identified-erbie-lee-bowser-as-gunman.html/,32.6412,-96.9481
+169,492001,Oklahoma,4,0,http://www.koco.com/news/oklahomanews/okc/father-daniel-green-capable-of-killing-his-family/21560934,35.3867,-97.4356
+181,492276,Florida,4,1,http://www.usatoday.com/story/news/nation/2013/08/28/workplace-shooting-florida/2712227/,30.0194,-82.3278
+188,479747,Tennessee,4,0,http://www.wsmv.com/story/23415177/4-people-found-dead-inside-car-in-cumberland-county,35.9576,-84.8407
+194,480366,District of Columbia,11,3,https://www.washingtonpost.com/local/police-search-for-active-shooter-on-grounds-of-washington-navy-yard-in-southeast-dc/2013/09/16/b1d72b9a-1ecb-11e3-b7d1-7153ad47b549_story.html,38.873,-76.9977
+202,480605,Texas,5,0,http://www.corsicanadailysun.com/news/local_news/update-rice-deaths-suspected-as-murder-suicide/article_250814e0-365b-5ed2-ac59-d5502b76dafa.html,32.2337,-96.4661
+218,480981,Texas,4,0,http://dfw.cbslocal.com/2013/10/10/witness-comes-forward-in-quadruple-homicide-in-paris-texas/,33.6652,-95.5505
+227,492325,Arizona,5,0,http://www.usatoday.com/story/news/nation/2013/10/28/phoenix-quadruple-shooting/3292871/,33.5042,-112.096
+232,492914,South Carolina,5,0,http://www.nbcnews.com/news/other/six-people-found-shot-death-south-carolina-home-f8C11494274,33.9881,-82.2888
+237,493109,Florida,4,0,http://jacksonville.com/breaking-news/2013-11-08/story/surveillance-footage-may-have-hints-about-vehicle-involved,30.3068,-81.7298
+242,493882,New York,4,1,http://nypost.com/2013/11/11/gunman-three-others-dead-in-brooklyn-bloodshed/,40.7122,-73.9359
+248,494155,Oklahoma,4,1,http://www.tulsaworld.com/news/crimewatch/leads-are-few-in-nov-quadruple-homicide-tulsa-police-say/article_2b1f879d-639e-53cd-9b2d-fb2c931bd46e.html,36.1771,-95.9403
+258,495332,Kansas,4,0,http://www.kake.com/home/headlines/Three-dead-one-injured-in-Topeka-shooting-234030831.html?ref=831,39.0379,-95.6905
+2318,96942,South Carolina,4,0,http://www.wistv.com/story/24466406/neighbors-shocked-and-saddened-after-family-of-four-found-dead,34.0942,-81.1525
+2502,97365,Utah,5,0,http://www.deseretnews.com/article/865594341/5-found-dead-in-Spanish-Fork-home-suspected-murder-suicide.html,40.1109,-111.665
+5070,140117,Texas,4,0,http://www.beaumontenterprise.com/news/texas/article/Sheriff-asks-for-help-in-probe-of-family-s-slaying-5658087.php,29.973,-95.6542
+5493,104618,Ohio,4,0,http://www.toledoblade.com/Police-Fire/2014/02/07/Murder-weapon-recovered-from-scene-of-triple-murder-suicide-in-Defiance-County,41.2236,-84.339
+6816,108691,Indiana,4,0,http://fox59.com/2015/12/14/prosecutors-wont-pursue-death-penalty-after-plea-deal-reached-in-quadruple-indianapolis-slaying/,39.717,-86.1136
+6834,108649,California,4,2,http://sanfrancisco.cbslocal.com/2014/02/20/4-dead-2-injured-in-shooting-at-norcal-tribal-headquarters/,41.4838,-120.545
+7383,109957,Virginia,5,1,http://www.wcyb.com/news/police-victims-of-possible-shooting-in-southwest-virginia/-/14590844/24656924/-/9opswz/-/index.html,36.7843,-81.7848
+7539,110365,Illinois,4,0,http://www.suntimes.com/25870450-761/suspected-gunman-argued-with-family-night-before-apparent-murders-house-fire.html,41.7142,-87.7481
+11566,121031,Texas,4,16,http://kdhnews.com/military/shooting-report-could-spark-change-to-fort-hood-s-gun/article_1531a40c-a456-11e4-89ca-875214898bf3.html,31.133,-97.7944
+15536,131998,Arkansas,4,4,http://www.journalgazette.net/article/20140504/NEWS03/140509744/1006/news,35.8423,-90.7043
+16150,133202,Florida,4,0,http://www.abcactionnews.com/news/crime/autopsy-report-released-on-avila-resident-darrin-campbell-and-his-family-killed-in-a-mur,28.0985,-82.467
+16367,133455,California,4,0,http://homicide.latimes.com/post/manuela-padilla/,34.081,-117.74
+18242,138282,California,4,8,http://www.sbsheriff.us/documents/ISLAVISTAINVESTIGATIVESUMMARY.pdf,34.4144,-119.857
+18804,139689,California,4,0,http://www.latimes.com/local/la-me-0530-murder-suicide-20140530-story.html,33.5904,-117.656
+20730,181998,Nevada,5,0,http://www.scrippsmedia.com/ktnv/news/New-video-shows-moments-leading-up-to-deadly-Walmart-shooting-305920841.html,36.1666,-115.062
+20799,144524,Florida,5,0,http://www.news-press.com/story/news/crime/2014/06/08/fort-myers-death-investigation-san-carlos-park/10196401/,26.4815,-81.8213
+21682,146990,Virginia,4,0,http://www.walb.com/story/25782982/shooting,37.236,-77.4669
+25476,156670,Texas,6,1,http://www.chron.com/neighborhood/spring/news/article/Death-penalty-trial-set-for-man-accused-in-Spring-9186401.php,30.0405,-95.4424
+28357,164513,Maine,5,0,http://bangordailynews.com/2014/11/18/news/portland/saco-man-who-killed-family-self-had-stopped-taking-antidepressants-because-h,43.4981,-70.449
+29791,168844,Virginia,5,0,http://www.wusa9.com/story/news/local/virginia/2014/08/04/shooting-culpeper-va/13565331/,38.5631,-77.9829
+33693,181121,Oklahoma,4,0,http://kfor.com/2014/08/26/four-dead-including-two-children-in-oklahoma-apartment-shooting/,36.1332,-95.8551
+34497,183390,Illinois,4,0,http://www.myfoxchicago.com/story/26414352/police-4-family-members-found-shot-to-death-in-elmhurst,41.8815,-87.9329
+34705,185128,Oklahoma,4,0,http://www.justice4caylee.org/t21918-franklin-yosiel-and-caroline-michelle-fuentes-ramirez-3-and-5-yo-8-14-shooter-father-william-rolando-fuentes-godinez-tulsa-ok,36.1329,-95.8553
+37527,192851,Florida,8,0,http://www.wogx.com/story/26572200/multiple-shooting-deaths-reported-in-gilchrist-county,29.7555,-82.8626
+40736,202897,Virginia,4,0,http://www.walb.com/story/26741459/next-at-11-4-dead-in-richmond-murder-suicide-chesterfield-pedestrian-struck-and-killed,37.509,-77.4748
+40799,204254,New York,4,0,http://www.dailymail.co.uk/news/article-2786805/Cops-4-slain-include-2-adults-boys-ages-7-10.html,42.6914,-73.8712
+43312,210363,Washington,5,1,http://www.kirotv.com/ap/ap/washington/father-of-high-school-shooter-indicted-on-5-new-ch/nm2m5/,48.092,-122.155
+43627,211348,Kentucky,4,0,http://www.wave3.com/story/28087095/ksp-makes-2nd-arrest-in-trigg-co-murder-investigation,36.8285,-87.8527
+46438,221347,Missouri,4,0,http://www.ky3.com/news/local/arrested-man-is-finally-charged-with-4-murders-at-motel-in-springfield/21048998_31173934,37.2432,-93.2613
+47049,222932,New Jersey,4,0,http://www.thestate.com/2014/11/26/3837728/boy-shot-by-mom-in-murder-suicide.html,39.8751,-74.6662
+47314,223799,South Dakota,4,1,http://www.argusleader.com/story/news/crime/2014/12/19/domestic-violence-behind-shooting-five-sisseton/20659351/,45.8562,-97.1072
+47337,223651,Ohio,4,1,http://www.wkyc.com/news/local/cleveland/man-accused-of-5-murders-to-be-arraigned-again/133092060,41.518,-81.6234
+48285,226466,West Virginia,5,0,http://www.wdtv.com/wdtv.cfm,39.6855,-79.8588
+49958,263556,Pennsylvania,7,0,http://articles.philly.com/2015-12-16/news/69065523_1_bradley-stone-ex-wife-nicole-stone,40.2459,-75.282
+50646,266407,Illinois,4,0,http://www.rrstar.com/article/20141230/NEWS/141239958/10447/NEWS,42.2938,-89.1072
+50881,282186,New York,4,2,http://www.dailymail.co.uk/news/article-2254451/William-Spengler-shooting-Woman-24-bought-firearms-gunman-Christmas-Eve-firefighter-ambush.html,43.2367,-77.5261
+52306,272531,California,4,0,http://www.turnto10.com/story/27747586/police-4th-victim-dies-after-man-shoots-family,37.6774,-120.961
+52826,275007,Georgia,4,0,http://www.cnn.com/2015/01/06/us/georgia-sheriffs-deputy-family-murder-suicide/index.html,33.8091,-84.8283
+53187,276459,California,4,0,http://www.nbclosangeles.com/news/california/4-People-Dead-in-San-Francisco-Shooting-288132691.html,37.7737,-122.426
+55066,282956,New York,4,1,http://nypost.com/2015/01/26/dad-who-massacred-family-thought-baby-mama-was-cheating/,40.6557,-73.7508
+55970,286810,Georgia,4,0,http://www.11alive.com/story/news/crime/2015/02/01/bodies-found-lagrange-home/22686703/,32.9776,-85.142
+56416,288421,North Carolina,4,0,http://www.journalnow.com/news/crime/four-dead-in-stokes-county-shooting/article_eed92570-aca5-11e4-91e7-0f002c38c9b8.html,36.3457,-80.3199
+56803,289811,Georgia,5,2,http://www.wbtw.com/story/28062177/fight-with-wife-over-taxes-lead-man-to-kill-4-people-police-say,33.7138,-84.6692
+57200,293377,Kentucky,4,0,http://thenewsjournal.net/details/8813/UPDATE:-Disagreement-over-computer-use-possible-motive-for-Corbin-teen%27s-killing-spree#comments,36.9327,-84.1134
+58428,296215,Texas,4,1,http://www.statesman.com/news/news/crime-law/police-four-dead-in-killeen-shooting/nkG9j/,31.1199,-97.6832
+58843,298122,Missouri,8,1,http://www.times-standard.com/general-news/20150408/sheriff-missouri-shooter-was-drunk-had-marijuana-in-system,37.1956,-91.9012
+59463,301026,Nevada,4,0,http://www.mynews3.com/content/news/local/story/Shooter-in-triple-homcide-dies-from-self/d2ullkcwAkS-XQH5QcYNnw.cspx?rss=3269,36.1485,-115.298
+62028,311535,Alaska,4,0,http://www.adn.com/article/20150603/kenai-police-missing-family-died-murder-suicide,60.589,-151.316
+62324,312119,Indiana,4,0,http://fox59.com/2015/03/25/family-member-of-quadruple-homicide-victims-enough-is-enough/,39.811,-86.1871
+63596,316989,Oklahoma,4,0,http://ksnt.com/2015/04/02/tulsa-police-say-man-killed-his-wife-2-sons-then-himself/,36.0922,-95.791
+65810,324424,Arizona,5,0,http://www.azcentral.com/story/news/local/phoenix/2015/04/17/phoenix-five-murdered-abrk/25930963/,33.6417,-111.989
+68317,333750,Wisconsin,4,1,http://fox6now.com/2015/06/11/released-menasha-police-issue-final-report-on-trestle-trail-bridge-shooting/,44.2029,-88.4656
+69698,339229,Arizona,5,0,http://www.scrippsmedia.com/kgun9/news/Murder-suicide-on-southside-multiple-victims-303547701.html,32.1299,-111.066
+69885,340448,Alaska,4,0,http://www.ktuu.com/news/news/south-anchorage-familys-slaying-was-murdersuicide-police-say/33146744,61.1537,-149.874
+70511,341622,Texas,9,18,http://www.wacotrib.com/news/twin-peaks-biker-shooting/tensions-rise-during-hearing-in-twin-peaks-shootout-case/article_134bd989-10bd-5966-8fff-de0c988d8369.html,31.5039,-97.129
+73910,353854,Montana,5,0,http://www.spokesman.com/stories/2015/jun/14/family-friends-mourn-montana-murder-suicide/,46.3991,-112.738
+74997,357164,Ohio,4,1,http://nbc4i.com/2017/01/19/robert-adams-sentenced-to-life-without-parole-for-each-victim-of-columbus-quadruple-murder/,40.0134,-82.9664
+75530,359830,South Carolina,9,0,http://7online.com/news/charleston-shooting-suspect-tried-killing-self-after-shooting-victims-son-says/797301/,32.7876,-79.9332
+76085,362259,Utah,4,0,http://www.ksl.com/?sid=35183732&nid=148&s_cid=rss-extlink,41.1774,-112.031
+76979,364715,Florida,4,0,http://www.cbsnews.com/news/cops-grandmother-kills-daughter-grandchildren-self/,26.6089,-80.1176
+78362,369120,South Carolina,4,0,http://www.heraldonline.com/news/local/crime/article26650144.html,34.8779,-81.0499
+79849,374630,South Carolina,4,1,http://thetandd.com/news/sheriff-dad-s-drug-dealing-responsible-for-deaths/article_d54693a5-3dfb-56fb-90d9-50e7c8533f28.html,33.3467,-80.45
+79992,375022,Tennessee,6,2,http://www.huffingtonpost.com/entry/shooter-tennessee-quran_55aab832e4b065dfe89e8af5?,35.0905,-85.2591
+81096,379166,Georgia,5,0,http://www.ajc.com/news/news/crime-law/5th-person-dies-after-july-murder-suicide-in-forsy/npcqz/,34.0802,-84.1272
+83687,390050,Vermont,4,0,http://www.pressherald.com/2017/11/15/vermont-woman-who-killed-three-relatives-social-worker-sentenced-to-life/,44.1984,-72.5351
+83911,390526,Texas,8,0,http://www.star-telegram.com/news/state/texas/article59689976.html,29.9199,-95.452
+87696,407854,New Jersey,4,0,http://nypost.com/2015/09/04/deaths-of-family-in-jersey-shore-fire-were-murder-suicide/,40.3111,-73.9904
+88884,410852,Washington,4,0,http://www.kirotv.com/news/news/2-people-shot-death-near-manson/nnbD4/,47.9018,-120.132
+89196,412040,Minnesota,5,0,http://www.startribune.com/investigation-continues-into-deaths-of-greenwood-family/326692481/,47.6919,-95.4311
+89645,413060,Louisiana,4,0,http://theadvocate.com/news/13436293-100/four-found-dead-in-apparent,30.5576,-91.0835
+89803,413522,Louisiana,4,0,http://www.ksla.com/story/30019034/ebrso-4-dead-in-suspected-murdersuicide,30.5576,-91.0835
+90315,418318,South Dakota,6,0,http://www.dailymail.co.uk/news/article-3250365/Elementary-school-funeral-remembers-four-children-killed-murder-suicide-South-Dakota-father-burnt-home-focus-state-audit.html,43.3153,-98.6045
+92616,423863,Florida,4,0,http://www.theguardian.com/world/2015/oct/11/mass-shooting-florida-1000th-sandy-hook?1,29.0313,-82.6723
+92624,423223,Oregon,10,9,http://www.kval.com/news/local/Nine-wounded-victims-in-UCC-Umpqua-Community-College-shooting-Mercy-Medical-Roseburg-Oregon-330413951.html,43.2628,-123.28
+96988,439734,Colorado,4,0,http://www.krdo.com/news/ap-colorado-springs-gunman-identified-as-33yearold/36192496,38.8363,-104.811
+97195,440743,South Carolina,4,0,http://www.greenvilleonline.com/story/news/crime/2015/11/03/anderson-county-sheriffs-office-4-adults-murdered/75091588/,34.6474,-82.748
+97626,442231,Maine,4,0,http://bangordailynews.com/2015/11/06/news/mid-maine/we-didnt-really-know-who-he-was-friend-of-oakland-victims-says-of-suspected-shooter/,44.5413,-69.7247
+98901,446996,Florida,4,1,http://www.firstcoastnews.com/story/news/2015/11/13/jso-conducting-death-investigation-on-northside/75728982/,30.4653,-81.6075
+100257,452007,Ohio,4,1,http://www.dispatch.com/content/stories/local/2015/11/24/Hilltop-shooting-witness.html,39.9533,-83.0662
+101531,456893,California,16,19,http://www.latimes.com/local/lanow/la-me-ln-san-bernardino-shooting-victims-htmlstory.html,34.0758,-117.277
+105580,476338,California,4,0,http://ktla.com/2016/01/02/authorities-id-4-fatally-shot-in-rowland-heights/,33.9799,-117.905
+109520,494378,Virginia,6,0,http://www.dailypress.com/news/crime/dp-6-dead-in-chesapeake-murder-suicide-20160128-story.html,36.7921,-76.3293
+111090,501153,Texas,4,0,http://thepolicenews.net/default.aspx?act=Newsletter.aspx&category=News+1-2&newsletterid=59135&menugroup=Home,29.1582,-99.7357
+112810,590221,Missouri,4,0,http://www.kansascity.com/news/local/crime/article61854977.html,39.4922,-94.6372
+112882,508640,Michigan,6,2,http://www.wzzm13.com/news/local/kalamazoo/kalamazoo-shootings/kalamazoo-shootings-suspect-to-stand-trial-in-june/420596651,42.2354,-85.676
+113402,509897,Arizona,5,0,http://www.dailymail.co.uk/news/article-3460182/Authorities-Shooting-reported-Phoenix-home-fire.html,33.5927,-112.163
+113601,511436,Kansas,4,14,http://www.kansas.com/news/local/crime/article62604937.html,38.1368,-97.4268
+113797,512073,Washington,5,0,http://www.king5.com/story/news/local/2016/03/01/mason-county-killer-used-gun-dead-man/81183344/,47.5033,-122.931
+115145,518436,Kansas,5,0,http://fox40.com/2016/03/09/suspect-in-5-killings-arrested-after-manhunt/#,39.0476,-94.6699
+115584,519541,Pennsylvania,5,3,http://triblive.com/local/allegheny/12581994-74/judge-to-decide-whether-suspects-in-wilkinsburg-mass-shooting-will-be-tried?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+yourcranberry+%28Your+Cranberry+News%29,40.4385,-79.8722
+117304,525992,Kentucky,4,0,http://www.wlky.com/news/homicide-investigation-underway-after-4-bodies-pulled-from-burning-home/38613318,38.1746,-85.5286
+117435,527206,Texas,4,0,http://heralddemocrat.com/news/local/spd-says-sherman-deaths-were-murder-suicide,33.6619,-96.6358
+119101,532377,Nevada,4,0,http://news3lv.com/news/local/suspect-in-fatal-shootings-that-involved-k-9-nicky-dies-from-wounds,36.327,-115.296
+122008,543457,Texas,4,0,http://www.ktxs.com/news/texas-police-father-kills-wife-son-daughter-then-himself/39109508,29.7542,-95.8313
+122425,546022,Georgia,6,0,http://www.ajc.com/news/news/crime-law/police-suspect-in-five-shooting-deaths-in-appling-/nq9wg/,33.5989,-82.2244
+122526,545525,Ohio,8,0,http://www.youralaskalink.com/news/family-wanted-for-questioning-in-execution-style-murder-might-be/article_0dde898c-5614-11e7-9a74-1b476b6844f0.html,39.0201,-83.275
+124198,552393,Florida,4,0,http://www.wgrz.com/news/local/ccso-deputies-searching-for-shooting-suspect-in-green-cove-springs/167137651,29.9988,-81.709
+125533,557553,Illinois,4,0,https://www.dnainfo.com/chicago/20160512/englewood/englewood-shooting-kills-2-women-1-man-domestic-incident-police-say,41.7652,-87.6616
+126150,565244,Georgia,5,0,http://www.wctv.tv/content/news/Indictments-handed-down-to-Jeffrey-Peacock-in-quintuple-murder-416724493.html,31.2124,-83.8518
+130372,577574,New Mexico,5,0,http://krqe.com/2017/03/29/roswell-man-accused-of-killing-his-family-extradited-to-us-from-mexico/,33.4196,-104.518
+130448,577157,Florida,50,53,https://www.reuters.com/article/us-orlando-shooting-idUSKBN1901CK,28.5195,-81.3767
+133121,592207,Nevada,5,0,http://www.fox5vegas.com/story/32388105/homicide-victim-denied-protective-order-weeks-before-slaying,36.1958,-115.224
+134393,597756,Texas,5,9,http://thepolicenews.net/default.aspx?act=Newsletter.aspx&category=News+1-2&newsletterid=65327&menugroup=Home,32.7793,-96.8052
+136071,604762,Louisiana,4,3,http://www.nola.com/crime/index.ssf/2017/06/baton_rouge_police_ambush.html,30.4334,-91.0817
+136987,610379,Texas,4,1,http://www.star-telegram.com/news/state/texas/article92305362.html,30.1029,-97.3288
+138261,617152,Missouri,4,0,http://www.stltoday.com/news/local/crime-and-courts/depression-paranoia-cited-in-bridgeton-murder-suicide-that-left-four/article_9016ad4d-a30f-5808-a74a-65176c575750.html,38.7409,-90.4233
+139438,623195,Pennsylvania,5,0,http://www.readingeagle.com/news/article/sinking-spring-man-killed-family-self-investigators-say,40.33,-76.0256
+141982,634819,Alabama,5,0,http://www.fox10tv.com/story/32806421/names-of-citronelle-murder-victims-released-by-officials,31.05,-88.3088
+143575,684389,California,5,0,http://www.seniorliving.org/facilities/ca/renee-jennex-small-family-home-arf/,33.5196,-117.032
+145394,651957,Texas,4,0,http://www.mystatesman.com/news/news/local/officials-suspect-del-valle-fire-linked-to-death-o/nsT8S/?icmp=statesman_internallink_referralbox_free-to-premium-referral,30.1343,-97.5936
+147850,661703,Washington,5,0,http://www.khq.com/story/35170548/prosecutor-suspect-in-washington-mall-shooting-found-dead,48.4646,-122.338
+149140,668279,Illinois,4,0,http://www.daily-journal.com/news/local/arrest-made-in-october-homicide-in-pembroke/article_cd4cf89c-eff6-5733-bfac-4254dd5d1a1c.html,41.086,-87.5391
+151406,676663,California,4,11,http://abc7.com/news/2-arrested-in-deadly-west-adams-party-shooting-/1557964/,34.0274,-118.351
+153436,686312,Georgia,4,0,http://www.henryherald.com/news/kosky-baker-indicted-in-moccasin-gap-quadruple-murder/article_6d0daa57-dc4a-5b7a-92bc-29a69bae506a.html,33.384,-83.9905
+158253,710885,Alaska,4,0,http://www.ktva.com/4-people-found-dead-fairbanks-hotel-police-investigating-879/,64.86,-147.704
+160035,719128,New Mexico,4,1,http://www.santafenewmexican.com/news/local_news/police-release-names-of-kids-fatally-shot-in-albuquerque/article_ce527e23-3281-519b-b429-964611e3478b.html,35.0483,-106.49
+160641,725323,Texas,4,0,http://www.khou.com/news/family-pleads-for-justice-in-murder-of-19-year-old/385366389,29.7717,-95.1392
+162134,727759,Illinois,5,0,https://chicago.suntimes.com/news/woman-dies-10-months-after-roseland-home-invasion-shooting/,41.7037,-87.6259
+163125,733176,North Carolina,4,0,http://www.wect.com/story/36139504/nc-man-charged-in-quadruple-murder-on-christmas-eve,35.734,-77.8724
+164541,740442,South Carolina,4,0,http://www.wmcactionnews5.com/story/34164140/coroner-identifies-mother-father-and-kids-shot-to-death-in-lex-co-home,33.9428,-81.1725
+165158,744381,Oregon,4,0,http://www.oregonlive.com/pacific-northwest-news/index.ssf/2017/08/hubbard_man_killed_his_wife_an.html,45.1936,-122.768
+165585,743995,Florida,5,6,http://wavy.com/2017/01/10/airman-who-served-at-langley-eustis-injured-in-florida-airport-shooting/,26.0698,-80.1367
+166204,748479,Colorado,4,0,http://www.krdo.com/news/crime/el-paso-county-crime/police-investigate-4-deaths-in-colorado-springs/262272662,38.8013,-104.762
+168908,1025158,Washington,4,0,http://komonews.com/news/local/person-of-interest-identified-in-kitsap-county-quadruple-murder,47.5625,-122.828
+170541,768243,Mississippi,4,0,http://www.msnewsnow.com/story/34433092/victims-of-yazoo-city-quadruple-homicide-identified,32.8634,-90.4092
+170672,772743,Oklahoma,4,0,http://www.tulsaworld.com/homepagelatest/morris-man-was-drunk-when-he-shot-wife-children-multiple/article_ac75de3a-cf74-57aa-9f11-d65bd17cfa63.html,35.6098,-95.8909
+171024,771826,Mississippi,4,0,http://www.jacksonfreepress.com/news/2017/feb/15/murder-city-deep-causes-harmful-biases-unexpected-/,32.3065,-90.239
+172766,778961,Idaho,4,0,http://www.sltrib.com/news/4963069-155/shooting-deaths-preston-police-find-four,42.092,-111.879
+173118,779582,Mississippi,4,0,http://www.wbrc.com/story/34556453/suspect-identified-in-quadruple-homicide-of-mississippi-family,32.434,-88.4973
+173498,781439,Kansas,4,0,http://www.thekansan.com/news/20170223/homicide-in-newton-three-found-dead-suspect-shot-by-police,38.024,-97.3183
+174974,789126,California,4,0,http://www.ivpressonline.com/quicknews/el-centro-police-identify-murder-suicide-victims/article_be9ae648-037c-11e7-856f-23da01a0c7a4.html?mode=jqm,32.7865,-115.579
+177518,800363,Wisconsin,5,0,http://www.jsonline.com/story/news/2017/08/29/report-mass-shooter-nengmy-vang-admitted-killings-demanded-tell-his-side/611830001/,44.8975,-89.6129
+177595,800828,Louisiana,4,1,http://www.katc.com/story/35014611/third-victim-identified-in-fatal-officer-involved-shooting,30.2092,-92.3562
+179012,807691,Ohio,4,0,http://www.newsnet5.com/news/news-photo-gallery/scenes-from-a-tragedy-quadruple-shooting-leaves-canton-neighborhood-in-shock-mourning,40.804,-81.3991
+179039,807618,Illinois,4,0,http://abc7chicago.com/news/man-charged-in-south-shore-quadruple-murder/1838414/,41.7601,-87.5583
+180459,813943,Minnesota,4,1,http://minnesota.cbslocal.com/2017/04/07/fatal-shooting-st-paul-lake-phalen/?e=keizq5muagHJFw,44.9896,-93.0457
+180487,813821,Texas,5,0,http://www.chron.com/news/houston-texas/article/Mother-of-2-among-dead-in-triple-murder-suicide-11061592.php,29.6858,-95.3668
+184747,832528,Kansas,4,1,http://cjonline.com/news/crime-courts/local/2017-05-02/days-killings-josh-gueary-was-paranoid-bought-gun-fought-brother,39.0161,-95.728
+186896,841800,Ohio,4,0,https://www.10tv.com/article/kirkersville-gunman-may-have-bought-gun-private-sale,39.959,-82.5962
+189720,853756,Mississippi,8,1,http://www.bradfordera.com/news/nation/mississippi-man-indicted-in-shooting-deaths-of-people/article_cba8f322-f18c-5c80-8495-9594d73da942.html,31.4109,-90.4609
+191239,860792,Indiana,4,0,http://fox59.com/2017/06/05/isp-seeking-public-assistance-related-to-triple-slaying-in-southern-indiana/,38.5157,-86.1703
+191341,859875,Florida,6,0,https://www.clickorlando.com/news/fiamma-shooter-legally-intoxicated-when-he-killed-5-coworkers-autopsy-shows,28.5799,-81.2934
+191824,862587,Pennsylvania,4,0,http://wnep.com/2017/06/27/weis-market-set-to-reopen-after-shooting/,41.4346,-75.9228
+192815,866933,California,4,2,https://www.thestar.com/news/world/2017/06/23/san-francisco-ups-warehouse-shooter-used-stolen-gums-in-rampage.html,37.7596,-122.405
+192937,868363,New Mexico,5,0,http://www.rdrnews.com/2017/11/16/new-mexico-man-indicted-in-shooting-rampage/,36.384,-106.041
+196696,883058,Maine,4,1,http://www.gunviolencearchive.org/incident/883058/edit,44.7906,-69.7873
+197019,890129,Pennsylvania,4,0,http://www.pennlive.com/nation-world/2017/12/cousins_charged_in_shooting_de.html#incart_river_home,40.3496,-75.0176
+197834,888382,Alabama,4,0,http://abcnews.go.com/US/wireStory/latest-dead-alabama-shooting-48590922,33.6858,-86.8068
+198060,889758,South Carolina,4,0,http://ksnt.com/2017/07/25/police-s-carolina-mom-killed-woman-2-kids-then-herself/,34.8341,-82.5029
+204823,917820,North Carolina,4,0,http://www.wral.com/two-suspects-in-enfield-quadruple-homicide-also-charged-in-other-killings/17244753/,36.1688,-77.8286
+205098,919715,California,4,0,http://ktla.com/2017/08/24/bloomington-house-fire-that-left-family-of-4-dead-being-investigated-as-murder-suicide-sheriffs-dept/,34.0559,-117.396
+205248,920513,Missouri,4,0,http://stlouis.cbslocal.com/2017/12/16/suspect-arrested-in-august-quadruple-murder/,38.754,-90.201
+207904,930569,Texas,9,1,http://www.fox4news.com/news/plano-gunman-extremely-drunk-at-time-of-mass-shooting,33.056,-96.7261
+211944,952720,Arizona,4,0,http://www.pinalcentral.com/casa_grande_dispatch/area_news/police-identify-suspects-victims-in-deadly-cg-shooting/article_c1f1de49-e2ea-5d6e-a93a-77dde5f3a44b.html,32.8854,-111.757
+213026,957562,Ohio,4,0,http://local12.com/news/local/prosecutor-says-hell-pursue-death-penalty-for-ohio-man-accused-of-killing-4,38.7083,-82.6423
+217151,980577,Texas,27,20,http://abc7.com/full-list-of-texas-church-shooting-victims-identified/2607282/,29.2733,-98.0564
+217841,1014364,Utah,4,0,http://fox13now.com/2017/11/10/mapleton-family-of-four-found-shot-to-death-inside-home-in-possible-murder-suicide/,40.1165,-111.598
+217973,985057,Arizona,4,0,http://www.dailymail.co.uk/news/article-5073799/Four-confirmed-dead-Arizona-domestic-murder-suicide.html,33.6121,-111.864
+218580,987611,California,6,12,http://www.times-standard.com/general-news/20171208/rancho-tehama-gunman-shot-himself-autopsy-finds,40.0187,-122.393
+225837,1018118,New Jersey,4,0,http://www.nj.com/monmouth/index.ssf/2018/01/third_person_escaped_home_in_killing_of_parents_sister_family_friend_prosecutor.html#incart_river_index,40.2927,-74.0028
+226612,1020918,California,4,0,http://homicide.latimes.com/post/sean-birnkrant/,34.4738,-118.533
+226881,1022973,California,4,0,http://www.chicoer.com/general-news/20180205/shasta-sheriff-says-woman-was-responsible-for-four-deaths,40.6349,-122.231
+226949,1022547,Texas,4,0,http://www.wfaa.com/news/crime/neighbors-of-family-killed-in-murder-suicide-say-they-saw-no-signs-of-trouble/506510131,29.2712,-94.8192
+228478,1030296,Alabama,4,0,http://www.wvtm13.com/article/calhoun-county-man-fatally-shoots-12-year-old-son-teen-daughter-and-her-fiancee-before-killing-self/15395101,33.7456,-85.6606
+230198,1037529,Pennsylvania,5,0,http://abcnews.go.com/US/suspected-gunman-quadruple-homicide-rural-pennsylvania-car-wash/story?id=52689286,40.0521,-79.3889
+230200,1038429,Pennsylvania,4,0,http://www.post-gazette.com/news/state/2018/01/30/Authorities-have-identified-the-four-men-killed-in-a-shooting-at-a-Reading-row-home/stories/201801300136,40.3331,-75.9318
+232157,1046961,Kentucky,5,0,http://www.lex18.com/story/37476907/breaking-5-dead-in-johnson-county-murders-suicide,37.8982,-82.886
+232234,1047761,Michigan,4,3,http://www.wzzm13.com/news/local/detroit/officer-shot-2-killed-on-detroits-east-side/517705378,42.4216,-83.0539
+232745,1049217,Florida,17,17,http://www.orlandosentinel.com/news/fl-florida-school-shooting-wounded-list-20180307-story.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+orlandosentinel%2Fnews%2Flocal%2Fstate+%28OrlandoSentinel.com+-+State+News%29&utm_content=Yahoo+Sear,26.3045,-80.2694
+233036,1051839,Michigan,4,0,https://www.usatoday.com/story/news/nation-now/2018/02/20/did-shunning-jehovahs-witnesses-drive-mom-murder-suicide/355626002/,42.6045,-83.3438
+233699,1054212,Arizona,4,0,https://www.azcentral.com/story/news/local/phoenix-breaking/2018/02/22/suspect-fatal-triple-shooting-has-died-police-unsure-if-wound-self-inflicted/363146002/,33.475,-112.137
+234555,1057518,Michigan,5,0,http://www.fox2detroit.com/news/local-news/gas-station-triple-murder-suspect-spotted-in-van-buren-twp-after-carjacking,42.4005,-83.2571
+236201,1065908,California,4,0,http://www.pressdemocrat.com/home/8118556-181/coroner-yountville-killer-shot-himself,38.3943,-122.364
+236877,1068526,Washington,4,0,http://www.unionleader.com/crime/nh-woman-two-children-slain-in-washington-state-father-kills-himself-20180313,47.0663,-122.354
+237046,1069080,New York,4,0,http://auburnpub.com/news/state-and-regional/people-including-young-child-shot-to-death-in-brooklyn/article_f7a0947b-9eb8-5b18-9e24-3a9f38286e15.html,40.6615,-73.9076
+9,492151,Maryland,1,6,http://www.abc2news.com/news/crime-checker/baltimore-city-crime/mother-of-murdered-15-yo-speaks-out,39.2899,-76.6412
+26,480443,Georgia,0,8,http://www.macon.com/news/local/crime/article30130797.html,32.826,-83.6704
+34,482771,District of Columbia,0,13,https://www.washingtonpost.com/local/police-seek-two-men-in-connection-with-shooting-that-injured-13/2013/03/14/4fa6145a-8cda-11e2-9838-d62f083ba93f_story.html,38.9062,-77.0099
+38,482926,California,0,7,http://fox40.com/2013/03/16/mass-casualty-incident-declared-in-galt-after-reported-shooting/,38.2436,-121.312
+41,483737,Illinois,0,7,http://www.dnainfo.com/chicago/20130321/auburn-gresham/shooting-at-record-release-party-leaves-seven-wounded,41.7358,-87.6631
+73,486209,Louisiana,0,19,http://www.nola.com/crime/index.ssf/2015/09/mothers_day_shooting_suspects_4.html,29.9861,-90.0595
+93,487271,Virginia,0,7,http://articles.dailypress.com/2013-06-02/news/dp-nws-virginia-beach-shooting_1_virginia-beach-shooting-sentara-leigh,36.8459,-76.1171
+94,487435,Georgia,0,7,https://www.facebook.com/permalink.php?id=313979908643128&story_fbid=540014446039672,33.0354,-85.0244
+97,487659,Missouri,0,6,http://fox2now.com/2013/06/12/man-charged-with-shooting-6-people-monday-night/,38.6647,-90.2506
+105,488505,Virginia,0,6,http://www.13newsnow.com/story/news/2014/09/09/14816936/,36.8571,-76.2735
+111,489105,Missouri,1,8,http://fox4kc.com/2013/06/23/prospect-shooting-spree-puts-nine-in-hospital-two-critically-hurt/,39.0891,-94.5518
+117,490115,Illinois,0,6,http://www.huffingtonpost.com/2013/06/29/uptown-driveby-shooting-6_n_3521906.html?utm_hp_ref=chicago,41.9691,-87.6548
+119,490226,New York,0,9,http://www.wptv.com/news/national/brooklyn-shooting-tyrone-brown-arrested-in-connection-with-crime-in-east-flatbush-neighborhood,40.6452,-73.928
+125,490351,Michigan,1,6,http://www.theoaklandpress.com/article/OP/20130821/NEWS/308219897,42.6482,-83.2871
+193,480071,Washington,0,6,http://www.kapptv.com/article/2013/sep/15/six-people-injured-shooting-outside-yakima-hookah-/,46.5854,-120.538
+200,480521,Illinois,0,12,http://www.nydailynews.com/news/national/chicago-toddler-smiling-shot-face-article-1.1472401,41.803,-87.6699
+206,480646,Kansas,1,6,http://www.kake.com/home/headlines/224750592.html,37.6861,-97.3288
+207,480691,West Virginia,0,6,http://www.wvnstv.com/story/23520830/update-suspect-in-huntington-wv-shooting-which-injured-6-apprehended-in-ny,38.4136,-82.4609
+213,480765,California,1,12,http://sanfrancisco.cbslocal.com/2013/10/06/gunfight-fresno-motorcycle-club/,36.7054,-119.76
+221,481043,Pennsylvania,0,8,http://www.pennlive.com/midstate/index.ssf/2013/10/police_confirm_eight_people_sh.html,40.2692,-76.8681
+231,492570,California,1,6,http://www.dailyrepublic.com/news/crimecourts/police-1-dead-after-8-shot-while-changing-flat-tire/,38.1517,-122.25
+238,493035,Michigan,3,7,http://www.usatoday.com/story/news/nation/2013/11/07/detroit-barber-shop-shooting/3463983/,42.4334,-83.0523
+239,493842,Texas,2,16,http://www.dailymail.co.uk/news/article-2500592/Teen-killed-Texas-party-shootings-Queric-Richardson-pictured.html,29.884,-95.7187
+249,495145,California,0,7,http://abc7news.com/archive/9339708/,37.7488,-122.165
+271,496634,Louisiana,2,6,http://www.nola.com/crime/index.ssf/2013/12/arrest_made_in_old_towne_bar_s.html,30.2743,-89.7826
+276,496684,New York,0,6,http://www.nydailynews.com/new-york/brooklyn/5-shot-1-pistol-whipped-brooklyn-party-article-1.1562264,40.6712,-73.9088
+1803,95500,Louisiana,0,6,http://www.myarklamiss.com/crime/update-3-new-arrests-brings-total-to-8-in-madison-parish-club-shooting,32.3986,-91.1579
+6288,107447,Florida,0,6,http://www.nbcmiami.com/news/local/Correctioons-Officers-Gun-Goes-Off-at-Shooters-Restaurant-in-Fort-Lauderdale-245951931.html,26.1661,-80.1036
+6372,107519,Texas,1,7,http://www.nbcdfw.com/news/local/One-Dead-Six-Injured-In-Dallas-Nightclub-Shooting-245753181.html,32.7673,-96.779
+6412,107417,Florida,1,6,"http://www.orlandosentinel.com/news/local/breakingnews/os-orange-county-killing-20140216,0,6228293.story",28.5979,-81.2734
+6831,108626,Florida,0,12,http://tbo.com/pinellas-county/teens-arrested-in-st-pete-pellet-gun-shootings-20140220/,27.7753,-82.6384
+8538,113214,Illinois,0,6,http://www.suntimes.com/news/metro/26090624-418/orr-star-among-6-shot-at-party.html#.U77pEbFAG70,41.8907,-87.7483
+8599,113247,Texas,0,6,"http://www.chicagotribune.com/news/local/breaking/chi-developing-6-shot-after-s-austin-party-police-say-20140309,0,6563032.story",30.3031,-97.6572
+10349,117914,California,0,7,http://sanfrancisco.cbslocal.com/2014/03/24/no-arrests-after-7-injured-in-sf-tenderloin-drive-by-shooting/,37.7832,-122.411
+13919,127045,Illinois,0,6,http://wgntv.com/2014/04/21/6-shot-at-easter-party-in-montgomery/,41.7289,-88.3104
+15095,130232,Georgia,1,6,http://www.11alive.com/story/news/local/investigations/2014/11/11/fedex-shooting-facility-/18873933/,34.0105,-84.5977
+16529,156823,California,1,6,http://www.sacbee.com/2014/05/10/6395499/one-dead-six-injured-in-shooting.html,38.6051,-121.505
+16572,134162,California,1,6,http://sacramento.cbslocal.com/2014/05/10/1-dead-multiple-shot-near-sacramento-park/,38.6235,-121.525
+16598,134238,Tennessee,0,7,http://www.wmcactionnews5.com/story/25488030/seven-people-shot-outside-of-a-memphis-nightclue,35.1688,-89.9749
+17581,135904,Ohio,0,7,http://fox8.com/2014/05/18/1-badly-beaten-7-shot-during-incident-at-sports-bar/,41.4425,-82.6854
+18244,140185,Louisiana,1,7,http://www.nola.com/crime/index.ssf/2014/05/graduation_party_explodes_into.html,30.0227,-90.0508
+19829,142076,Illinois,0,7,http://www.dnainfo.com/chicago/20140603/south-shore-above-79th/south-shore-strip-mall-shooting-leaves-six-people-wounded,41.7519,-87.559
+20921,156245,New Jersey,0,6,http://www.nj.com/passaic-county/index.ssf/2014/07/6_injured_in_shooting_on_paterson_street_corner.html#incart_river,40.9207,-74.1591
+23099,150299,Florida,2,7,http://www.miamiherald.com/news/local/community/miami-dade/article1981339.html,25.8343,-80.2167
+23622,152960,California,0,7,http://www.latimes.com/local/lanow/la-me-ln-antioch-shooting-seven-people-injured-20140630-story.html,37.9565,-121.757
+23794,152468,Louisiana,1,9,http://www.ksla.com/story/31635795/bourbon-street-shooter-trung-le-sentenced-to-60-years-in-prison,29.9586,-90.0655
+24762,154834,Virginia,0,7,http://wtkr.com/2014/07/05/4-different-shootings-leaves-14-people-shot-in-norfolk/,36.8784,-76.2968
+24811,154803,Texas,0,6,http://www.chron.com/houston/article/6-injured-when-gunfire-erupts-at-Caribbean-5601621.php,29.6121,-95.3957
+24813,154721,Indiana,0,7,http://wishtv.com/2014/07/05/police-investigate-shooting-on-broad-ripple-avenue/,39.8686,-86.1313
+27410,161302,New Jersey,0,6,http://www.nj.com/essex/index.ssf/2014/07/six_injured_after_fight_ends_in_gunfire_in_irvington_police_say.html#incart_river,40.7172,-74.2289
+28162,163874,Illinois,1,6,http://chicago.cbslocal.com/2015/10/01/three-charged-in-2014-west-side-shooting-that-left-teen-dead-6-injured/,41.8727,-87.6963
+28235,163930,Georgia,0,8,http://www.walb.com/story/26161692/sylvester-pd-issues-alert-for-wanted-teen,31.531,-83.8221
+29525,168169,Massachusetts,0,7,http://bostonherald.com/news_opinion/local_coverage/2014/08/7_shot_after_argument_outside_new_bedford_bar,41.6872,-70.9263
+29660,168551,Texas,0,7,http://www.chron.com/neighborhood/spring/news/article/7-injured-in-shooting-outside-Spring-club-5665606.php,30.0195,-95.3757
+30692,171802,Minnesota,1,8,http://minnesota.cbslocal.com/2014/09/25/man-dies-6-weeks-after-shooting-at-400-soundbar/,44.9827,-93.2757
+30838,172180,California,0,7,http://blog.pe.com/breaking-news/2014/08/10/moreno-valley-party-shooting-hospitalizes-7/,33.8836,-117.222
+30861,172205,District of Columbia,0,6,http://www.washingtonpost.com/local/crime/six-injured-in-shooing-in-southwest-dc/2014/08/10/01dcb296-20a0-11e4-86ca-6f03cbd15c1a_story.html,38.8745,-77.0174
+30917,172288,Georgia,0,6,http://www.wsbtv.com/ap/ap/georgia/dublin-ga-man-arrested-in-shooting-outside-club/ngzfL/,32.7177,-82.7167
+31891,175788,Utah,0,6,http://www.ksl.com/index.php,40.764,-111.895
+34871,185430,California,0,6,http://abc7.com/news/gunfire-erupts-again-in-south-la;-8-injured/294172/,34.0199,-118.26
+36280,189562,Michigan,1,7,http://www.detroitnews.com/article/20140912/METRO01/309120040/1410/METRO01,42.3728,-83.2434
+36832,190599,Alaska,0,6,http://www.adn.com/article/20140914/6-wounded-1-critically-morning-shooting-outside-downtown-bar,61.2178,-149.88
+39222,197384,Florida,0,15,http://www.nbcmiami.com/news/local/Second-Arrest-Made-in-Mass-Shooting-at-Nightclub-278424801.html,25.8341,-80.2086
+39297,198051,South Carolina,1,7,http://m.live5news.com/live5news/db/330614/content/tsIJVZW4,32.885,-80.6203
+46581,224746,Texas,0,6,http://www.elpasotimes.com/news/ci_26951383/downtown-shooting-suspect-may-have-been-shot-by,31.7573,-106.493
+47149,223582,Pennsylvania,0,6,http://pittsburgh.cbslocal.com/2014/11/21/police-6-shot-outside-of-clairton-speakeasy/,40.4591,-79.7423
+47759,225036,California,0,6,http://abc7news.com/news/six-injured-two-critically-in-sf-shooting/412017/,37.77,-122.42
+50790,266424,Illinois,1,8,http://chicago.suntimes.com/crime/7/71/223301/dad-says-man-killed-calumet-city-leaving-army-proud,41.6181,-87.5532
+50902,268394,Florida,0,9,http://www.nbcmiami.com/news/local/3-People-Shot-in-Miami-286609351.html,25.8539,-80.2256
+54985,283115,Massachusetts,0,6,http://www.bostonherald.com/news_opinion/local_coverage/2015/01/gunfire_erupts_at_jp_party_six_wounded,42.3243,-71.101
+56068,287529,New York,0,6,http://www.syracuse.com/crime/index.ssf/2015/02/all_6_tipp_hill_shooting_victims_out_of_hospital.html,43.0468,-76.1758
+56917,290510,Tennessee,0,6,http://www.wmcactionnews5.com/story/28054306/six-hit-in-early-morning-crockett-county-shooting,35.8471,-89.2348
+62108,311348,New Mexico,1,6,http://www.abqjournal.com/581724/news/fatal-shooting-of-17-year-old-at-skate-park-was-self-defense-police-say.html,35.0873,-106.535
+62745,314044,Florida,0,7,http://www.newsherald.com/news/crime-public-safety/update-7-shot-at-spring-break-party-1.457338?tc=cr,30.1437,-85.7557
+67113,329322,New York,1,6,http://www.democratandchronicle.com/story/news/2015/04/27/gates-pub-shooting-victims-identified/26463371/,43.1386,-77.672
+68233,333576,Ohio,1,6,http://www.whio.com/news/news/crime-law/multiple-people-shot-on-macarthur-ave-in-dayton/nk74C/#__federated=1,39.7317,-84.2512
+68253,333584,Texas,0,6,http://www.khou.com/story/news/local/2015/05/03/mass-shooting-at-houston-nightclub-six-injured/26826747/,29.7406,-95.3753
+70400,341962,Illinois,0,6,http://www.rrstar.com/article/20150516/NEWS/150519532/10448/NEWS,42.2864,-89.1118
+71704,345749,Michigan,0,7,http://www.mlive.com/news/flint/index.ssf/2017/02/dna_match_ties_former_high_sch.html#incart_2box_news_flint,42.9944,-83.7044
+74578,356065,Connecticut,1,8,http://www.ctpost.com/local/article/Trial-begins-in-gang-shooting-spree-case-8343116.php,41.2212,-73.1964
+75905,361212,Michigan,1,11,http://www.detroitnews.com/story/news/local/detroit-city/2015/06/21/block-party-shooting/29069505/,42.3797,-83.1241
+75984,361198,Pennsylvania,0,11,http://www.nbcphiladelphia.com/news/local/Shooters-Identified-in-Block-Party-Shotgun-Shooting-That-Hurt-10-Including-Children-310193121.html,39.9692,-75.2059
+76230,361948,Pennsylvania,0,7,http://www.philly.com/philly/news/2-sentenced-to-100-years-for-Kensington-shooting-that-injured-7.html,39.9974,-75.1172
+77161,365399,Delaware,0,6,http://www.wmdt.com/top-stories/update-two-charged-in-harrington-shooting-that-left-6-injured_20161101080024402/138029605,38.921,-75.5748
+77205,367099,Illinois,0,6,http://thetelegraph.com/news/68559/alton-brothers-charged-in-shooting,38.6723,-90.1698
+78221,369014,Louisiana,0,8,http://www.ksla.com/story/29538718/spd-third-person-sought-in-connection-with-shooting-that-injured-8,32.4801,-93.7804
+78318,368732,Indiana,0,9,http://www.journalgazette.net/news/Shooting-results-in-9-victims--1-critical-7559271,41.0793,-85.1394
+79802,375412,Ohio,0,7,http://fox8.com/2015/07/16/at-least-7-injured-in-overnight-drive-by-shooting-on-clevelands-east-side/,41.5376,-81.6019
+80536,377047,Kentucky,0,6,http://www.whas11.com/story/news/local/2015/07/20/victim-celebrated-birthday-as-shots-rang-at-w-louisville-club-family-says/30445601/,38.2436,-85.8024
+80759,377878,New York,0,6,http://nypost.com/2015/07/20/six-shot-at-nyc-park-party-in-the-bronx/,40.8211,-73.9257
+81148,382230,Missouri,0,6,http://www.stltoday.com/news/local/crime-and-courts/st-louis-police-investigating-suspicious-death-multiple-shootings/article_a1ddbce7-5d61-5f55-b422-1216c9ca5f35.html,38.6302,-90.1935
+81229,380162,Louisiana,3,9,http://www.theadvertiser.com/story/news/2015/07/24/update-shooting-investigation-leads-police-motel/30608859/,30.202,-92.0459
+82830,386140,Maryland,0,7,http://www.baltimoresun.com/news/maryland/crime/blog/bal-7-shot-in-single-incident-in-w-baltimore-neighborhood-20150802-story.html,39.3501,-76.6638
+82961,385779,New York,0,9,http://abc7ny.com/news/gunmen-sought-after-9-shot-in-brooklyn;-total-of-19-shot-over-weekend-in-nyc/898447/,40.6655,-73.8675
+83892,390774,Arkansas,1,11,http://www.blythevillecourier.com/story/2248074.html,35.9194,-89.8967
+85272,395844,Texas,0,6,http://www.star-telegram.com/news/local/community/fort-worth/article31246733.html,32.6336,-97.3723
+85963,399212,North Carolina,0,8,http://www.wral.com/eight-injured-in-durham-drive-by-shooting-no-arrests-made/14846369/,36.0297,-78.8777
+86343,400091,California,1,7,http://www.modbee.com/news/local/crime/article31965084.html,37.6454,-121.023
+89470,412529,Minnesota,0,6,http://kstp.com/news/stories/S3912729.shtml?cat=127,44.9804,-93.2738
+90865,417013,Oklahoma,0,6,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwi2wszo_v7JAhWIoD4KHU9BAZYQFggkMAI&url=http%3A%2F%2Fwww.fox23.com%2Fnews%2Fnews%2Flocal%2Fshots-ring-out-injure-six-north-tulsa-nightclub%2FnnjcS%2F&usg=AFQjCNGBBkK1D,36.1771,-95.9225
+92038,421014,Georgia,0,10,http://news.blog.ajc.com/2015/10/28/2nd-suspect-arrested-in-west-georgia-club-shooting-that-wounded-10-people/,33.0312,-84.7298
+93859,428215,Tennessee,0,6,http://wreg.com/2015/10/10/6-shot-1-stabbed-in-separate-incidents/,35.0697,-89.8568
+95089,433146,Illinois,0,6,http://www.nwitimes.com/news/local/illinois/update-six-shot-in-drive-by-shooting-in-calumet-city/article_cc0067fe-4eea-5878-8de9-8f6fec2ca9db.html,41.6294,-87.5509
+100149,451495,Louisiana,0,17,http://www.nola.com/crime/index.ssf/2017/02/another_guilty_plea_leaves_1_d.html#incart_river_index,29.9748,-90.0372
+100823,454059,Colorado,3,9,http://www.businessinsider.com/ozy-licano-shot-during-the-planned-parenthood-rampage-in-colorado-springs-2015-11,38.8767,-104.847
+105589,476321,Louisiana,0,6,http://www.nola.com/crime/index.ssf/2016/03/suspect_arrested_in_new_years.html#incart_river_index,29.9304,-90.0959
+111091,500556,Florida,2,6,http://www.seattletimes.com/nation-world/police-2nd-victim-in-tampa-florida-club-shooting-dies/,28.0216,-82.4512
+111213,501168,New York,1,7,http://www.whec.com/news/four-people-arrested-mexican-village-shooting/4280396/,43.1634,-77.622
+111214,501233,Florida,2,10,http://www.orlandosentinel.com/news/breaking-news/os-glitz-shooting-bond-hearings-20161114-story.html,28.4541,-81.4646
+115010,517073,California,1,8,http://ktla.com/2016/03/06/1-dead-10-injured-after-shooting-in-compton-sheriffs-department/#,33.8678,-118.239
+115103,517058,Massachusetts,1,6,http://www.necn.com/news/new-england/Teen-Charged-in-Shooting-That-Killed-1-Injured-6-Court-371367231.html,42.397,-71.0318
+116010,521176,Florida,0,6,http://www.ocala.com/article/20160312/ARTICLES/160319918/1001/NEWS01?Title=Man-s-shotgun-discharges-spraying-pellets-that-injure-six,29.3119,-81.7738
+121707,543108,Texas,1,6,http://www.star-telegram.com/news/state/texas/article73650867.html,26.3058,-98.1924
+124415,553570,Minnesota,1,7,http://www.startribune.com/hunt-on-for-suspects-in-north-side-gunfire-that-killed-1-wounded-others/378283121/,44.9952,-93.3057
+124557,553803,Louisiana,2,6,http://www.shreveporttimes.com/story/news/crime/2016/05/05/two-killed-eight-injured-ambush-style-shooting/83966862/,32.5389,-93.7635
+128321,567614,Texas,2,6,http://www.usatoday.com/story/news/nation-now/2016/05/31/police-212-rounds-fired-houston/85220390/,29.7727,-95.5745
+128325,567673,New Jersey,0,6,http://www.trentonian.com/general-news/20160529/bloody-sunday-8-injured-in-two-trenton-shootings,40.2294,-74.7632
+133756,595166,New York,0,7,http://abc7ny.com/news/7-people-shot-during-july-4-barbecue-in-brooklyn/1413599/,40.682,-73.9176
+133947,595482,Arizona,2,6,http://www.azcentral.com/story/news/local/phoenix-breaking/2016/07/05/child-shot-two-killed-laveen-shooting/86701514/,33.3921,-112.146
+135757,604233,California,1,14,http://bakersfieldnow.com/news/local/coroner-rules-homicide-for-man-found-dead-in-apartment-near-mass-injury-party-shooting,35.3481,-119.036
+135865,604175,Tennessee,0,6,http://www.theleafchronicle.com/story/news/2016/07/16/5-shot-clarksville/87173430/,36.5377,-87.3377
+137087,610584,Ohio,1,7,http://www.wcpo.com/news/crime/cornell-mckennelly-ii-pleads-guilty-in-fatal-shooting-at-doubles-bar-in-hamilton,39.427,-84.5975
+137328,611479,Florida,2,19,,26.612,-81.86
+138006,617334,Georgia,0,7,http://www.ajc.com/news/news/crime-law/georgia-man-indicted-in-shooting-that-injured-7/nsRGp/,33.9664,-83.358
+139857,624273,Florida,0,7,http://www.news4jax.com/news/young-mother-still-hospitalized-after-eureka-gardens-mass-shooting,30.3022,-81.7334
+142107,634787,Connecticut,0,13,http://www.courant.com/breaking-news/hc-bridgeport-shooting-follow-0823-20160822-story.html,41.1981,-73.1753
+143125,640500,Alabama,1,6,http://www.mysanantonio.com/news/crime/article/3-charged-in-deadly-shooting-at-Love-Thy-9197093.php,33.4414,-86.951
+143418,641419,Texas,0,6,http://www.kcbd.com/story/32860607/6-people-robbed-shot-in-central-lubbock,33.5809,-101.918
+144774,647865,Virginia,1,10,http://www.wdbj7.com/content/news/Man-charged-with-murder-scheduled-to-be-in-court-Tuesday-398303751.html,37.2838,-79.9227
+145877,652584,Missouri,0,6,http://www.kansascity.com/news/local/crime/article101478187.html,39.0529,-94.5917
+146810,657634,District of Columbia,2,7,http://www.fox5dc.com/news/206145736-story,38.8583,-76.9966
+146910,659289,Florida,0,6,http://www.miamiherald.com/news/local/crime/article103212767.html,25.5846,-80.3855
+146927,657136,Florida,1,6,http://www.clickorlando.com/news/1-dead-6-injured-in-orlando-shooting,28.5269,-81.4243
+147996,662342,Maryland,0,8,http://www.baltimoresun.com/news/maryland/bs-md-multiple-shooting-0925-20160924-story.html,39.3048,-76.6082
+148309,663106,Texas,1,6,http://thepolicenews.net/default.aspx?act=Newsletter.aspx&category=News+1-2&newsletterid=64142&menugroup=Home,29.7237,-95.4414
+150357,672203,Michigan,1,8,http://www.mlive.com/news/grand-rapids/index.ssf/2017/03/gang_rivalry_motivates_shootin.html#incart_river_home,42.9125,-85.6209
+151104,676376,Illinois,1,6,http://chicago.suntimes.com/news/one-killed-6-wounded-in-east-garfield-park-shooting/,41.8839,-87.7086
+152574,682298,California,0,7,http://abc7news.com/news/oakland-shooting-leaves-7-victims-wounded/1569019/,37.7639,-122.175
+153591,688429,Mississippi,0,6,http://www.msnewsnow.com/story/33608473/man-wanted-in-weekend-block-party-shooting-turns-himself-in,32.3339,-90.1861
+154960,693374,California,0,8,http://www.eastbaytimes.com/2016/11/09/oakland-reputed-gang-members-charged-in-downtown-shootout-that-wounded-eight/,37.8041,-122.27
+156907,703245,Tennessee,1,7,http://www.wmcactionnews5.com/story/33744655/man-arrested-in-birthday-party-mass-shooting,36.0293,-89.3647
+158699,711597,Louisiana,1,9,http://www.nola.com/crime/index.ssf/2017/04/lafayette_men_indicted_in_nove.html#incart_river_index,29.9542,-90.0692
+158728,711744,Missouri,0,7,http://fox4kc.com/2016/11/27/groups-open-fire-on-each-other-leaving-seven-people-shot-in-kansas-city/,38.998,-94.5569
+159672,717616,New Jersey,0,6,http://www.nj.com/essex/index.ssf/2016/12/at_least_30_shots_fired_in_attack_that_wounded_6_a.html,40.7701,-74.1891
+159747,717873,California,0,6,http://www.latimes.com/local/lanow/la-me-ln-wake-shooting-20161203-story.html,33.9545,-118.309
+163204,732927,North Carolina,0,7,http://wncn.com/2016/12/26/teen-who-was-1-of-7-injured-in-nc-moose-lodge-christmas-party-shooting-speaks-out/,36.3893,-80.0078
+164496,739766,Florida,0,7,http://wsvn.com/news/local/7-injured-in-nw-miami-dade-drive-by-shooting/,25.8688,-80.2221
+167250,752222,Florida,0,8,http://www.miamiherald.com/news/local/community/miami-dade/article128394004.html,25.8297,-80.2489
+168105,756801,Georgia,0,6,http://www.walb.com/story/34315312/6-shot-at-bar-in-clayton-county,33.5741,-84.3716
+168656,760259,Illinois,0,6,http://chicago.suntimes.com/news/at-least-5-wounded-in-chatham-shooting/,41.7587,-87.6123
+168924,761973,Tennessee,0,10,http://www.wsmv.com/story/34386769/suspect-in-tennessee-armory-shooting-arrested-in-detroit,35.6059,-89.2319
+171593,773002,Missouri,1,6,http://www.kait8.com/story/34484338/in-custody-2nd-man-in-connection-to-caruthersville-mo-nightclub-shooting,36.1927,-89.6665
+174240,785262,Ohio,0,6,http://www.wlwt.com/article/cpd-responds-to-shooting-in-northside/8993094,39.1778,-84.5462
+177478,799987,Texas,0,7,http://www.star-telegram.com/news/local/community/arlington/article140000223.html,32.6681,-97.1819
+177812,802240,Missouri,1,6,http://www.stltoday.com/news/local/crime-and-courts/teenager-dead-six-critically-wounded-in-north-st-louis-shooting/article_e8ed5866-7fe7-5ea6-b369-e63d8d97549e.html,38.6765,-90.2545
+178245,803054,Ohio,2,15,https://www.cincinnati.com/story/news/2017/11/20/3rd-alleged-gunman-cameo-shootout-still-unidentified/880826001/,39.0943,-84.4286
+179738,811089,Texas,0,7,http://www.kcbd.com/story/35186865/west-texas-man-indicted-in-motel-shooting-that-wounded-7,33.5453,-101.853
+182049,821400,Alabama,0,6,http://www.wbrc.com/story/35209978/17-year-old-charged-in-shooting-at-carnival-in-center-point,33.624,-86.6856
+182323,821371,Ohio,0,9,http://www.dispatch.com/news/20170416/police-identify-9-shot-at-south-linden-party-hall,40.0008,-82.9753
+184787,832679,California,2,6,http://www.sandiegouniontribune.com/news/public-safety/sd-me-selis-lawsuit-20171020-story.html,32.8716,-117.203
+185933,838272,Illinois,2,8,http://homicides.suntimes.com/victims/michael-a-williams/,41.8102,-87.6356
+187231,843078,Arkansas,1,6,http://www.kait8.com/story/35424337/second-suspect-in-the-basement-shooting-extradited-back-to-craighead-co,35.8391,-90.705
+188392,848292,Pennsylvania,0,10,http://www.bradfordera.com/news/state/charged-with-attempted-murder-in-gunfire-that-injured/article_842d7f3c-47be-5474-973c-bff7729456e4.html,39.9934,-75.1628
+189585,853119,District of Columbia,1,7,http://wjla.com/news/local/police-1-dead-7-injured-in-nw-dc-shooting-over-memorial-day-weekend-2-suspects-wanted,38.9111,-77.0122
+189725,853901,Alabama,0,12,http://www.wtvm.com/story/35535373/12-people-shot-at-phenix-city-party-sunday-morning,32.4359,-84.9952
+191828,863075,Louisiana,0,6,http://www.theadvocate.com/new_orleans/news/crime_police/article_f2e9a6ba-4d18-11e7-99b7-e396edf9f1fd.html,29.9962,-90.0499
+192357,864743,Illinois,0,9,http://chicago.suntimes.com/news/8-wounded-in-lawndale-shooting/,41.8633,-87.7082
+193575,869968,South Carolina,0,7,http://wpde.com/news/local/digging-deeper-to-the-man-behind-the-fathers-day-shooting-on-ocean-boulevard,33.6859,-78.8858
+194323,873847,Georgia,1,6,http://www.wtvm.com/story/35732659/1-dead-several-others-shot-at-sw-atlanta-home,33.7044,-84.4239
+195681,879412,New York,2,6,http://nypost.com/2017/07/02/doctor-shot-in-wrist-at-bronx-hospital-can-move-his-fingers/,40.8435,-73.911
+195845,879953,Arkansas,0,25,http://www.fox16.com/news/local-news/first-arrest-made-in-little-rock-mass-shooting/768437028,34.7434,-92.2727
+197098,886220,Ohio,1,8,http://www.wlwt.com/article/family-searches-world-to-treat-daughter-s-brain-tumor/12003504,39.2542,-84.5966
+197428,886564,Virginia,0,7,http://wric.com/2017/07/09/7-injured-in-brunswick-county-shooting/,36.8119,-77.7709
+200360,898631,North Carolina,1,6,http://www.wfmynews2.com/news/local/man-shot-after-memorial-service-in-high-point-dies/462218769,35.9534,-79.9812
+201340,904026,California,0,7,http://abc30.com/drive-by-shooting-in-southwest-fresno-leaves-7-injured/2268771/,36.7278,-119.801
+201379,904106,Washington,0,6,http://www.nbcrightnow.com/story/36024336/18-year-old-injures-six-others-with-birdshot-loaded-shotgun,46.3607,-120.523
+202242,907857,California,0,7,https://patch.com/california/rockridge/7-injured-oakland-shooting,37.7358,-122.172
+202259,907555,New York,0,6,http://nypost.com/2017/08/06/at-least-12-wounded-in-separate-shooting-incidents/,40.8942,-73.8489
+202646,909423,Illinois,1,6,http://chicago.suntimes.com/chicago-politics/cousin-bronzeville-man-slain-in-shooting-died-protecting-the-kids/,41.8274,-87.6264
+206418,924854,Illinois,2,10,http://chicago.suntimes.com/news/man-charged-with-shooting-13-year-old-girl-in-west-englewood/,41.7755,-87.6801
+208787,934036,South Carolina,0,8,http://www.thestate.com/news/local/crime/article174400796.html,34.0012,-81.0383
+210255,940554,Tennessee,1,8,http://www.theleafchronicle.com/story/news/2017/09/24/nashville-police-responding-shooting-antioch-church/697968001/,36.0465,-86.583
+214815,966178,Alabama,2,7,http://www.ksla.com/story/36735916/lanett-police-arrest-tuskegee-man-in-connection-with-deadly-club-shooting,32.8489,-85.2056
+215685,974051,Kentucky,0,6,http://www.lex18.com/story/36705445/six-teens-shot-in-louisville-neighborhood,38.2409,-85.7836
+218262,986236,Indiana,0,7,http://www.nwitimes.com/news/local/crime-and-courts/man-remains-in-critical-condition-after-shooting-at-gary-nightclub/article_c601793b-f0b7-5d14-aa16-d39f614910a8.html#tracking-source=home-top-story-2,41.595,-87.2835
+218991,989838,Georgia,0,7,http://www.wtvm.com/story/36862995/cpd-investigating-shooting-on-15th-st,32.4742,-84.9713
+220171,994323,Mississippi,1,6,http://m.dailyleader.com/2017/11/24/victim-identified-in-fatal-overnight-shooting-suspect-considered-armed-and-dangerous/,31.5732,-90.4432
+225743,1017372,Colorado,2,6,http://kdvr.com/2017/12/31/douglas-county-sheriff-responds-to-officer-down-call/,39.566,-104.945
+226563,1021788,Mississippi,0,6,http://www.wdam.com/story/37205152/4-people-shot-at-hattiesburg-bar,31.3269,-89.3285
+229405,1033262,Kentucky,2,14,https://www.courier-journal.com/story/news/crime/2018/01/26/kentucky-shooting-marshall-county-high-school-gabe-parker/1064880001/,36.9152,-88.3367
+233122,1052035,Kansas,1,7,http://www.kansascity.com/news/local/crime/article200793979.html,39.1152,-94.6477
+236261,1067061,Indiana,0,6,https://www.southbendtribune.com/news/publicsafety/six-people-injured-in-south-bend-shooting/article_8f9eb8b0-254f-11e8-8da0-83a8a5acbed1.html,41.656,-86.2393
+237536,1071427,Kentucky,0,7,http://www.lex18.com/story/37800424/man-charged-in-louisville-nightclub-shooting,38.2437,-85.8012
