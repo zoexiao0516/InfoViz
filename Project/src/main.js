@@ -46,8 +46,8 @@ function Main() {
     const [left, setLeft] = React.useState(null);
     const [top, setTop] = React.useState(null);
 
-    const WIDTH = 2800;
-    const HEIGHT = 900;
+    const WIDTH = 4000;
+    const HEIGHT = 1000;
     const margin = { top: 0, right: 40, bottom: 40, left: 40, gap: 40 };
     const innerWidth = WIDTH - margin.left - margin.right;
     const innerHeight = HEIGHT - margin.top - margin.bottom;
@@ -73,20 +73,29 @@ function Main() {
         setTop(null);
     };
 
+    const handleClick = (e, d) => {
+        e.preventDefault();
+        console.log('The link was clicked.');
+        var url = d.source_url;
+        console.log(url);
+        window.open(url);
+    };
+
+
     return <div>
         <svg width={WIDTH} height={HEIGHT}>
             <g>
                 <GeoMap offsetX={margin.left} offsetY={margin.top}
                     map={map} data={dataAll}
                     height={innerHeight} width={innerWidth}
-                    selectedIncident={selectedIncident} setSelectedIncident={setSelectedIncident}
-                    mouseOver={mouseOver} mouseOut={mouseOut} />
+                    selectedIncident={selectedIncident}
+                    mouseOver={mouseOver} mouseOut={mouseOut} handleClick={handleClick} />
             </g>
         </svg>
         <Tooltip d={selectedIncident} left={left} top={top} />
-        <div style={{ position: "absolute", textAlign: "center", width: "460px", left: "40px", top: "10px" }}>
-            <h3>Gun Violence in US (2018)</h3>
-            <p>A visualization of the numbers of casualty in US gun violence.</p>
+        <div style={{ color: "#333333", position: "absolute", textAlign: "right", width: "1400px", top: "8px" }}>
+            <h1>Gun Violence in the US (2018) </h1>
+            <a href="https://zoexiao0516.github.io/InfoViz/Project/src/charts/index.html">Cross-filter Chart</a>
         </div>
 
     </div>
