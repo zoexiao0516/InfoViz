@@ -93,9 +93,13 @@ function Main() {
             </g>
         </svg>
         <Tooltip d={selectedIncident} left={left} top={top} />
-        <div style={{ color: "#333333", position: "absolute", textAlign: "right", width: "1400px", top: "8px" }}>
-            <h1>Gun Violence in the US (2018) </h1>
-            <a href="https://zoexiao0516.github.io/InfoViz/Project/src/charts/index.html">Cross-filter Chart</a>
+        <div style={{ color: "#333333", position: "absolute", textAlign: "right", width: "800px", left: "600px", top: "8px" }}>
+            <h1>Major Gun Violence in the US</h1>
+            <a href="https://zoexiao0516.github.io/InfoViz/Project/src/charts/index.html">Go to Cross-filter Chart</a>
+            <p>This visualization system demostrates major gun violence cases across the U.S with a geographical map and cross-filter bar charts. The geographical map visualizes geographical features of gun violence cases, proposes detailed case information with a hoover informatoin box, and redirects users to crime report webpage with on-click action.
+            </p>
+            <p>When users use our visualization system, they will first see a U.S map that is filled with points. Each point represents a crime and is plotted where it occurred. When users <b>hover over each crime on the map</b>, they will see the color change of this crime. They will find more detailed information regarding this crime on the number of injuries, the number of death and the address of the location of the crime. When users <b>click on each crime</b>, they will be redirected to the reference link to the reporting source of this crime.
+            </p>
         </div>
 
     </div>
